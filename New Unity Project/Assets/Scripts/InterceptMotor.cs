@@ -7,25 +7,28 @@ public class InterceptMotor : MonoBehaviour
     public float interceptFalloff;
 
     public GameObject target;
+
+    public bool intercepted = false;
     void Start()
     {
         target = BigDog.instance.gameObject;
     }
     void Update()
     {
-        if(transform.position.y < 0)
+        if(transform.position.z < 0)
         {
             moveToIntercept();
         }
         else
         {
+            intercepted = true;
         }
     }
 
     void moveToIntercept()
     {
         Vector3 targetSpeed = Vector3.zero;
-        Vector3 speed = Vector3.up * interceptSpeed * Time.deltaTime;
+        Vector3 speed = Vector3.forward * interceptSpeed * Time.deltaTime;
         transform.Translate(speed);
     }
     

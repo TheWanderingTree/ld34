@@ -29,11 +29,21 @@ public class Motor : MonoBehaviour, IActionController
     private float currentClearDelay;
     public float leanInjection;
 
+    public float timeToFall;
+    public float canFallRange;
+    private float currentTimeToFall;
+    public bool hasFallen
+    {
+        get;
+        private set;
+    }
+
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
         currentInput = new Controller();
         enableActions = true;
+        currentTimeToFall = timeToFall;
     }
     void Update()
     {
@@ -58,7 +68,6 @@ public class Motor : MonoBehaviour, IActionController
                 leanInjection = 0;
             }
         }
-
     }
 
     void lean(float value)
@@ -71,25 +80,59 @@ public class Motor : MonoBehaviour, IActionController
         currentLean = value * leanSpeed * Time.deltaTime;
 
         Vector3 targetRot = new Vector3(0, 0, (currentLean + (ambientLean * currentDirection)) + leanInjection);
-        transform.Rotate(targetRot);
 
+        transform.Rotate(targetRot);
         Vector3 eulers = transform.rotation.eulerAngles;
+
         if (eulers.z < 180)
         {
+            currentDirection = 1;
             float zAng = Mathf.Clamp(eulers.z, 0, maxLean);
             transform.rotation = Quaternion.Euler(eulers.x, eulers.y, zAng);
             currentLeanAngle = zAng / maxLean;
-            currentDirection = 1;
+            if(zAng >= maxLean - canFallRange)
+            {
+                beginToFall(true);
+            }
+            else
+            {
+                beginToFall(false);
+            }
         }
         else if(eulers.z > 180)
         {
+            currentDirection = -1;
             float zAng = Mathf.Clamp(eulers.z, 360 - maxLean, 360);
             transform.rotation = Quaternion.Euler(eulers.x, eulers.y, zAng);
             currentLeanAngle = Mathf.Abs(360 - zAng) / maxLean;
-            currentDirection = -1;
+
+            if (zAng <= 360 - maxLean + canFallRange)
+            {
+                beginToFall(true);
+            }
+            else
+            {
+                beginToFall(false);
+            }
         }
         Vector3 moveVect = -Vector3.right * currentDirection * speed * currentLeanAngle * Time.deltaTime;
         rigid.velocity = moveVect;
         transform.position = Vector3.ClampMagnitude(transform.position, maxMoveDist);
+    }
+
+    void beginToFall(bool falling)
+    {
+        if(falling)
+        {
+            currentTimeToFall -= Time.deltaTime;
+            if(currentTimeToFall <= 0)
+            {
+                hasFallen = true;
+            }
+        }
+        else
+        {
+            currentTimeToFall = timeToFall;
+        }
     }
 }
