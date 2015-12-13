@@ -10,6 +10,7 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="BigDog_Speed" ID="{1B6ABD4C-E133-4D47-84CA-8C9126BA03F7}"/>
+				<GameParameter Name="Tilt_Amount" ID="{467D99D4-8896-4F60-8E1C-68DC625C7425}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

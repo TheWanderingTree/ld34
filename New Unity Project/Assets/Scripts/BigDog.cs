@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using DG.Tweening;
+using System.Collections;
 
 public class BigDog : MonoBehaviour
 {
@@ -22,20 +22,11 @@ public class BigDog : MonoBehaviour
         immobile,
         prefire,
         mobile,
-        fallen,
-        dead
+        fallen
     }
     public bigDogStates currentState;
     public bool isMobile;
     public bool begin = true;
-
-    [Header("Skid Control")]
-    public float duration;
-    public float strength;
-    public int vibrato;
-    public float randomness;
-
-    private Tween currentTween;
     void Awake()
     {
         initInstance();
@@ -67,7 +58,7 @@ public class BigDog : MonoBehaviour
         switch(currentState)
         {
             case bigDogStates.immobile:
-                AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                //AkSoundEngine.PostEvent("stopBigDog", gameObject);
                 enableActions(false);
                 break;
 
@@ -78,22 +69,9 @@ public class BigDog : MonoBehaviour
                 enableActions(true);
                 break;
             case bigDogStates.fallen:
-                if (currentTween == null)
-                {
-                   currentTween = transform.DOShakePosition(duration, strength, vibrato, randomness);
-                }
-                AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                //AkSoundEngine.PostEvent("stopBigDog", gameObject);
                 enableActions(false);
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
-                transform.rotation = Quaternion.identity;
-                if (Bag.instance.GetComponent<HingeJoint>())
-                {
-                    Bag.instance.GetComponent<HingeJoint>().breakForce = 0;
-                }
-                GetComponent<Animator>().SetBool("Fallen", true);
-                currentState = bigDogStates.dead;
-                break;
-            case bigDogStates.dead:
                 break;
         }
     }

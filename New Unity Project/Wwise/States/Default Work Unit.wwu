@@ -18,6 +18,24 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Music" ID="{5308D754-41E2-4A2E-B91D-B3A45FDB767F}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{67D2D3BC-8101-4125-9359-79B0E33DE648}"/>
+						<State Name="Intro" ID="{839EA78D-D3D3-45E4-8BA5-FC63779EA020}"/>
+						<State Name="Gameplay" ID="{91F86CB1-21C6-4231-967B-88738B5A8A00}"/>
+						<State Name="Build" ID="{24E52E64-F0C4-4C3C-895D-744032D810D2}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}">
+					<ChildrenList>
+						<State Name="None" ID="{C3BDE6D5-5F14-4956-BC18-92B76516D570}"/>
+						<State Name="Left" ID="{46FC9237-CE7D-48A7-84C8-4DB511F449A6}"/>
+						<State Name="Right" ID="{193444CD-68DA-473F-9B44-9DA2D6CB5858}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

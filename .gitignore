@@ -29,6 +29,7 @@ sysinfo.txt
 *.validationcache
 *.cache
 *.akd
+*.prof
  
 # ============ #
 # OS generated #

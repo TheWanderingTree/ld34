@@ -97,6 +97,16 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{34361C82-34F9-4A1A-992A-7D6A2CCFDE8B}" ShortID="426470499" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{45BF8A98-31FC-4CC1-B80A-94AF039412A2}" Global="false">
+									<ObjectRef Name="bigDog_death" ID="{811D4897-B516-464B-82BE-B58059B1D89F}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}">
@@ -108,16 +118,23 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Stop" ID="{1B8519A3-84F7-402D-87E1-659A64B397D8}" ShortID="565947527" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D76C55DA-4FF0-4371-8B20-581D7D76150F}" Global="false">
+									<ObjectRef Name="droneAttack" ID="{149DDF9E-584E-42D1-A0A1-DCBBD0E267A9}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{964C5200-B67A-4188-B3F8-B9BA55CED9F1}" ShortID="998687816" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{CE211382-2E49-423F-BECB-AF40FAAF42B5}" Global="false">
-									<ObjectRef Name="drone_death_spinout_01" ID="{7678B017-4321-44C3-B497-9ED671EB2BB5}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+									<ObjectRef Name="drone_deathSpinout" ID="{8EA8406C-B975-4037-9300-8FA818D88CC4}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 								</Element>
 							</ElementList>
 						</Action>
 						<Action Name="Play" ID="{94C5C347-3A45-472E-88EE-40E1E40EB615}" ShortID="247438555" Type="Play" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.8">
+								<Property Name="Delay" Type="Real64" Value="1.2">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{01808A10-38CF-4699-B184-D6224D236298}">
@@ -153,6 +170,147 @@
 							<ElementList>
 								<Element ID="{1DAB49DD-2EEA-4227-A14E-A54F6173476B}" Global="false">
 									<ObjectRef Name="droneSwitch" ID="{607DE7FE-ADBF-4A12-90F9-F4A5BDFF84DB}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{88EFB4E8-5D8A-45A3-9F03-8579B92665AD}" ShortID="356159132" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E50E8085-AE56-4512-AAA0-5FFDF615A8BB}" Global="false">
+									<ObjectRef Name="droneAttack" ID="{149DDF9E-584E-42D1-A0A1-DCBBD0E267A9}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="collisionTankTrap" ID="{53631F81-8213-419F-A8B6-EA4F0522CF5E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CDA2B108-460F-43EE-9BCD-1B23F2B9DEC9}" ShortID="138511933" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{578C2A2B-256B-41E1-8CD4-EF8EFC7DEEF5}" Global="false">
+									<ObjectRef Name="bigDog_collision_01" ID="{D6D948BC-C719-4E50-8BF0-98D7CDA93711}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{04332D26-D875-40D1-8AD2-A6D648FA61F1}" ShortID="749393287" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E6DF1987-1F14-40D3-98D2-991CA8C4C5F4}" Global="false">
+									<ObjectRef Name="bigDog_collision_02" ID="{B8572839-092F-4142-8D5A-E549732F2789}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="droneAttack" ID="{8231501A-5D5D-4D11-8B4D-9CEF71BE7FB1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EE442E9A-A37E-418E-B0B0-D9D4FF9B5961}" ShortID="719064676" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6FD9F6F1-B5DA-44BA-866B-846B2C3B0952}" Global="false">
+									<ObjectRef Name="droneAttack" ID="{149DDF9E-584E-42D1-A0A1-DCBBD0E267A9}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="collisionBarbedWire" ID="{681BCA27-9D54-46CB-B82B-9C3C3882D879}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3D9128A1-5630-4697-9898-690DA9298A7F}" ShortID="928546388" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9A8E2830-89A0-42DE-91F3-2150621F59C4}" Global="false">
+									<ObjectRef Name="bigDog_collision_04" ID="{E6C1B9D5-453C-4C05-97B7-0901F2F55901}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="collisionLandmine" ID="{9B8F526A-DA52-48B3-B7FC-3AB390E2AE8E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8A8F35CF-C5D6-47C9-917C-85FC2CE22A9F}" ShortID="759368664" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C5B89AD4-BE55-4514-B052-88DB6337D00B}" Global="false">
+									<ObjectRef Name="bigDog_collision_03" ID="{ABD948A5-EA59-4A08-A460-C221BB2A5A57}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_obstacleAlert" ID="{6A7D292F-2747-4D71-A104-E63B78E9FEB5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CF0B4408-07AA-404E-AFB5-82E43BB3603E}" ShortID="691284162" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{51A38975-997B-48BE-8FF9-1230C0BFCC54}" Global="false">
+									<ObjectRef Name="ui_obstacleAlert_01" ID="{E67EBAC2-5534-4C87-B380-8AC714E79DBD}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_tiltAlertLeft" ID="{EFA504E6-3DE9-45AC-A015-6AA124216941}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{62D0D9EF-D002-4975-AE7D-9D10A79B47DD}" ShortID="757606239" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}"/>
+								<GroupItem Name="Left" ID="{46FC9237-CE7D-48A7-84C8-4DB511F449A6}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_tiltAlertRight" ID="{F700233F-1493-478C-93CA-E449A8BA22C9}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{89AB9608-437B-428F-99FE-BAABC3716390}" ShortID="135617910" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}"/>
+								<GroupItem Name="Right" ID="{193444CD-68DA-473F-9B44-9DA2D6CB5858}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_confirmMenu" ID="{AF81BC56-2A4C-4918-BC49-CB484A62DC45}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E32E31A5-2F6D-41F5-B4F1-782455B0E14E}" ShortID="901109975" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A06780E6-43CA-4B4F-8322-F413C6EF2E2E}" Global="false">
+									<ObjectRef Name="ui_confirmMenu" ID="{78DC99D7-468E-4927-B59C-8BB0FEFB6A44}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_selectMenu" ID="{4C29522B-231B-48EC-835B-7A57211B25E5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F0BB0B3B-373E-4DFD-9825-D17F196541E3}" ShortID="583492292" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{72CB946D-04F0-4802-9D06-C31B23F3EE54}" Global="false">
+									<ObjectRef Name="ui_selectMenu" ID="{70616D14-39D1-4445-BD0E-7DF5A60A89E4}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playTitleMusic" ID="{746BCF13-D3DB-476F-816A-A31C6DC04397}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{DA06D7C4-E51A-4890-9859-DB29B65DB826}" ShortID="929793532" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music" ID="{5308D754-41E2-4A2E-B91D-B3A45FDB767F}"/>
+								<GroupItem Name="Intro" ID="{839EA78D-D3D3-45E4-8BA5-FC63779EA020}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Play" ID="{06E9085F-E95C-4C43-A90A-38F2E1535694}" ShortID="48944793" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4AA6D77A-28E7-4F4C-8FA4-319361D09FC5}" Global="false">
+									<ObjectRef Name="titleMusicSwitch" ID="{9CD9FE5A-AC06-45F1-8169-A627F37E7AB9}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{3DE64D00-F287-4FD0-9893-4FC5D7F27129}" ShortID="635993469" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}"/>
+								<GroupItem Name="None" ID="{C3BDE6D5-5F14-4956-BC18-92B76516D570}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Play" ID="{2731AE3F-EF9E-43B9-8DEA-29EE762F1EF8}" ShortID="376125036" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{10E5833D-BF63-45F2-84F9-ADC5307024E1}" Global="false">
+									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 								</Element>
 							</ElementList>
 						</Action>

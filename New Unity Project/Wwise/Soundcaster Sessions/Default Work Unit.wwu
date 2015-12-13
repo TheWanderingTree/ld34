@@ -6,69 +6,127 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{4E05E0AF-F1FB-4B40-B336-796AD13BB9AE}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="droneSpawn" ID="{A388D5A2-1D1F-44C4-BB6C-1468C8D225C6}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="playDesertAmb" ID="{EFC643B5-754F-4152-93B2-978FA870BDD4}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="playDesertAmb" ID="{EFC643B5-754F-4152-93B2-978FA870BDD4}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="startBigDog" ID="{3ACFDB94-A38F-4956-B269-D5D3FCC4C078}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Environment" ID="{9EFCE199-5A92-470B-8CA3-2E36456AA7F4}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<ObjectRef Name="droneSpawn" ID="{A388D5A2-1D1F-44C4-BB6C-1468C8D225C6}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="destroyDrone_explode" ID="{86D70AA4-9CEC-49FE-924C-4F95F89C3712}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="collisionTankTrap" ID="{53631F81-8213-419F-A8B6-EA4F0522CF5E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="stopBigDog" ID="{AE08BBE7-5364-484D-8AA3-52A86B6F7BF2}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="Environment" ID="{9EFCE199-5A92-470B-8CA3-2E36456AA7F4}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI" ID="{88919CB2-EE2F-49B7-B634-0D62E6C82FE6}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_confirmMenu" ID="{AF81BC56-2A4C-4918-BC49-CB484A62DC45}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="buffkicker_attack" ID="{4BF6C52B-888B-4E34-B4C0-562140D9061D}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+							<ObjectRef Name="stopBigDog" ID="{AE08BBE7-5364-484D-8AA3-52A86B6F7BF2}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<ObjectRef Name="droneAttack" ID="{8231501A-5D5D-4D11-8B4D-9CEF71BE7FB1}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="collisionLandmine" ID="{9B8F526A-DA52-48B3-B7FC-3AB390E2AE8E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="bagJostle" ID="{69C8EF17-3698-4D9C-820D-76A9478BB361}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_obstacleAlert" ID="{6A7D292F-2747-4D71-A104-E63B78E9FEB5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="startBigDog" ID="{3ACFDB94-A38F-4956-B269-D5D3FCC4C078}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<ObjectRef Name="droneAttack" ID="{149DDF9E-584E-42D1-A0A1-DCBBD0E267A9}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<ObjectRef Name="destroyDrone_explode" ID="{86D70AA4-9CEC-49FE-924C-4F95F89C3712}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<ObjectRef Name="collisionBarbedWire" ID="{681BCA27-9D54-46CB-B82B-9C3C3882D879}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Drones" ID="{D7D9DE83-89F2-49CB-A175-8E1730471AC5}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_selectMenu" ID="{4C29522B-231B-48EC-835B-7A57211B25E5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_tiltAlertRight" ID="{F700233F-1493-478C-93CA-E449A8BA22C9}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="engine" ID="{88721705-4904-4A43-9355-231FC27E30B5}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_tiltAlertLeft" ID="{EFA504E6-3DE9-45AC-A015-6AA124216941}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playTitleMusic" ID="{746BCF13-D3DB-476F-816A-A31C6DC04397}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Obstacles" ID="{F02E44DF-414D-4582-87AB-AB3BF491B9F1}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+							<Position X="4" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{C2E6C015-C461-4809-9628-AC608886B217}"/>
-							<Value>3.55555555555556</Value>
+							<Value>13.556</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="BigDog_Speed" ID="{1B6ABD4C-E133-4D47-84CA-8C9126BA03F7}"/>
-							<Value>75</Value>
+							<Value>61.28</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Tilt_Amount" ID="{467D99D4-8896-4F60-8E1C-68DC625C7425}"/>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
+						<CurrentStateRef Name="Gameplay" ID="{91F86CB1-21C6-4231-967B-88738B5A8A00}"/>
+						<CurrentStateRef Name="Left" ID="{46FC9237-CE7D-48A7-84C8-4DB511F449A6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Alive" ID="{F5225E4D-DE11-4B37-B68F-1E3BF83025CC}"/>
+						<CurrentSwitchRef Name="Dead" ID="{A95CA7F5-C5E2-4559-B830-3857F2EF57E8}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
