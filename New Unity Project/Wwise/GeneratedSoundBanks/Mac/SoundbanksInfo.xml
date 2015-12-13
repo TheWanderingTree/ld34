@@ -28,6 +28,7 @@
 				<Event Id="2687191769" Name="droneAttack" MaxAttenuation="100.000000"/>
 				<Event Id="690362850" Name="droneSpawn" MaxAttenuation="100.000000"/>
 				<Event Id="3938763508" Name="playDesertAmb"/>
+				<Event Id="2273201524" Name="playTiltAlert"/>
 				<Event Id="718394488" Name="playTitleMusic"/>
 				<Event Id="3499504239" Name="startBigDog" MaxAttenuation="100.000000"/>
 				<Event Id="2195046349" Name="stopBigDog" MaxAttenuation="100.000000"/>

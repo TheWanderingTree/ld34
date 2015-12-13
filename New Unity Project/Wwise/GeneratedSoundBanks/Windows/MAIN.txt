@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2037222792	collisionBarbedWire			\Default Work Unit\collisionBarbedWire	
 	2195046349	stopBigDog			\Default Work Unit\stopBigDog	
 	2229533828	bagJostle			\Default Work Unit\bagJostle	
+	2273201524	playTiltAlert			\Default Work Unit\playTiltAlert	
 	2687191769	droneAttack			\Default Work Unit\droneAttack	
 	3497004131	UI_selectMenu			\Default Work Unit\UI_selectMenu	
 	3499504239	startBigDog			\Default Work Unit\startBigDog	

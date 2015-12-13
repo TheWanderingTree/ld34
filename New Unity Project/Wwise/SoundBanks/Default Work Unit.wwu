@@ -20,6 +20,7 @@
 						<ObjectRef Name="droneSpawn" ID="{A388D5A2-1D1F-44C4-BB6C-1468C8D225C6}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="destroyDrone_explode" ID="{86D70AA4-9CEC-49FE-924C-4F95F89C3712}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="playDesertAmb" ID="{EFC643B5-754F-4152-93B2-978FA870BDD4}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="playTiltAlert" ID="{06FCBCC1-432B-4833-AF84-B404EAB7F7F5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_tiltAlertLeft" ID="{EFA504E6-3DE9-45AC-A015-6AA124216941}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="stopBigDog" ID="{AE08BBE7-5364-484D-8AA3-52A86B6F7BF2}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
