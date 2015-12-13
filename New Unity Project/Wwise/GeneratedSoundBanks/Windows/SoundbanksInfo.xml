@@ -31,7 +31,6 @@
 				<Event Id="718394488" Name="playTitleMusic"/>
 				<Event Id="3499504239" Name="startBigDog" MaxAttenuation="100.000000"/>
 				<Event Id="2195046349" Name="stopBigDog" MaxAttenuation="100.000000"/>
-				<Event Id="55290242" Name="stopBigDog_noDelay" MaxAttenuation="100.000000"/>
 				<Event Id="555737691" Name="UI_confirmMenu"/>
 				<Event Id="1639539297" Name="UI_obstacleAlert"/>
 				<Event Id="3497004131" Name="UI_selectMenu"/>

@@ -3,13 +3,13 @@
 	<Platform GUID="{8C19BB69-EC45-4E14-8215-A048996B43D2}">
 		<Language ID="0">
 			<Bank Name="Init" Hash="2005965697" StreamHash="157587662" Timestamp="130945202170000000"/>
-			<Bank Name="MAIN" Hash="2450587512" StreamHash="157587662" Timestamp="130945211580000000"/>
+			<Bank Name="MAIN" Hash="1835003281" StreamHash="157587662" Timestamp="130945232980000000"/>
 		</Language>
 	</Platform>
 	<Platform GUID="{DFF4DACD-D2C8-475E-A50B-D6A5E8E2232F}">
 		<Language ID="0">
 			<Bank Name="Init" Hash="4228985094" StreamHash="157587662" Timestamp="130945202160000000"/>
-			<Bank Name="MAIN" Hash="1813545740" StreamHash="157587662" Timestamp="130945211570000000"/>
+			<Bank Name="MAIN" Hash="4046235263" StreamHash="157587662" Timestamp="130945232980000000"/>
 		</Language>
 	</Platform>
 </IncrementalBankBuild>
