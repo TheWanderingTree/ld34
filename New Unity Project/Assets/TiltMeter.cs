@@ -24,6 +24,7 @@ public class TiltMeter : MonoBehaviour
                 currentValue = 1 - (target.currentTimeToFall / target.timeToFall);
                 GetComponent<Image>().fillAmount = currentValue;
             }
+
         }
         else if (!left)
         {
@@ -32,7 +33,7 @@ public class TiltMeter : MonoBehaviour
                 currentValue = 1 - (target.currentTimeToFall / target.timeToFall);
                 GetComponent<Image>().fillAmount = currentValue;
             }
-        }
 
+        }
     }
 }

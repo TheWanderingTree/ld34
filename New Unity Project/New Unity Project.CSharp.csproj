@@ -200,6 +200,7 @@
     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
     <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
     <Compile Include="Assets\Wwise\Deployment\Components\AkUtilities.cs" />
+    <Compile Include="Assets\WwiseGlobal.cs" />
     <Compile Include="Assets\distanceCheck.cs" />
   </ItemGroup>
   <ItemGroup>

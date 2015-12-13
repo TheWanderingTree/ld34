@@ -82,7 +82,7 @@ public class BigDog : MonoBehaviour
                 if (currentTween == null)
                 {
                     currentTween = transform.DOShakePosition(duration, strength, vibrato, randomness);
-                    AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                    AkSoundEngine.PostEvent("stopBigDog_noDelay", gameObject);
                 }
                 enableActions(false);
                 GetComponent<Rigidbody>().velocity = Vector3.zero;

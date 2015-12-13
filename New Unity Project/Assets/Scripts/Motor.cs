@@ -76,6 +76,7 @@ public class Motor : MonoBehaviour, IActionController
                 leanInjection = 0;
             }
         }
+        Debug.Log(currentTimeToFall / timeToFall);
     }
 
     void lean(float value)
@@ -95,6 +96,8 @@ public class Motor : MonoBehaviour, IActionController
         if (eulers.z < 180)
         {
             currentDirection = 1;
+            AkSoundEngine.SetState("Tilt_Direction", "Right");
+
             float zAng = Mathf.Clamp(eulers.z, 0, maxLean);
             transform.rotation = Quaternion.Euler(eulers.x, eulers.y, zAng);
             currentLeanAngle = zAng / maxLean;
@@ -110,6 +113,8 @@ public class Motor : MonoBehaviour, IActionController
         else if(eulers.z > 180)
         {
             currentDirection = -1;
+            AkSoundEngine.SetState("Tilt_Direction", "Left");
+
             float zAng = Mathf.Clamp(eulers.z, 360 - maxLean, 360);
             transform.rotation = Quaternion.Euler(eulers.x, eulers.y, zAng);
             currentLeanAngle = Mathf.Abs(360 - zAng) / maxLean;
@@ -132,6 +137,7 @@ public class Motor : MonoBehaviour, IActionController
     {
         if(falling)
         {
+            AkSoundEngine.SetRTPCValue("Tilt_Amount", (Mathf.Abs(1-(currentTimeToFall / timeToFall)) * 100) + 25);          
             currentTimeToFall -= Time.deltaTime;
             if(currentTimeToFall <= 0)
             {
@@ -140,6 +146,8 @@ public class Motor : MonoBehaviour, IActionController
         }
         else
         {
+            AkSoundEngine.SetRTPCValue("Tilt_Amount", 0);
+
             currentTimeToFall = timeToFall;
         }
     }
