@@ -63,25 +63,27 @@
     <Reference Include="DOTween">
       <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>Assets\DOTween\DOTween50.dll</HintPath>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\DOTween\DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
       <HintPath>Assets\DOTween\DOTween46.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\DOTween\DOTween43.dll</HintPath>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\DOTween\DOTween50.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Bag.cs" />
     <Compile Include="Assets\Drone.cs" />
+    <Compile Include="Assets\GameController.cs" />
     <Compile Include="Assets\ObjectMotor.cs" />
     <Compile Include="Assets\ScreenShake.cs" />
     <Compile Include="Assets\Scripts\AnimateTexture.cs" />
     <Compile Include="Assets\Scripts\BigDog.cs" />
     <Compile Include="Assets\Scripts\IActionController.cs" />
     <Compile Include="Assets\Scripts\InterceptMotor.cs" />
+    <Compile Include="Assets\Scripts\LevelObject.cs" />
     <Compile Include="Assets\Scripts\Motor.cs" />
     <Compile Include="Assets\Scripts\controller.cs" />
     <Compile Include="Assets\Scripts\inputs.cs" />
@@ -89,6 +91,10 @@
     <Compile Include="Assets\SolidHit.cs" />
     <Compile Include="Assets\StartMenu.cs" />
     <Compile Include="Assets\Status.cs" />
+    <Compile Include="Assets\TiltMeter.cs" />
+    <Compile Include="Assets\TimedLife.cs" />
+    <Compile Include="Assets\UiController.cs" />
+    <Compile Include="Assets\distanceCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DOTween\DOTween.XML" />

@@ -21,7 +21,11 @@ public class Motor : MonoBehaviour, IActionController
     private float currentValue;
     private float currentLean;
     private float currentLeanAngle;
-    private float currentDirection;
+    public float currentDirection
+    {
+        get;
+        private set;
+    }
 
     private Rigidbody rigid;
 
@@ -31,7 +35,11 @@ public class Motor : MonoBehaviour, IActionController
 
     public float timeToFall;
     public float canFallRange;
-    private float currentTimeToFall;
+    public float currentTimeToFall
+    {
+        get;
+        private set;
+    }
     public bool hasFallen
     {
         get;

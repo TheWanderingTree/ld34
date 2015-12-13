@@ -59,30 +59,13 @@ public class BigDog : MonoBehaviour
         {
             case bigDogStates.immobile:
                 enableActions(false);
-                if(isMobile)
-                {
-                    currentState = bigDogStates.mobile;
-                }
                 break;
 
             case bigDogStates.prefire:
                 enableActions(false);
-                if(begin)
-                {
-                    isMobile = true;
-                    currentState = bigDogStates.mobile;
-                }
                 break;
             case bigDogStates.mobile:
                 enableActions(true);
-                if(GetComponent<Motor>().hasFallen)
-                {
-                    currentState = bigDogStates.fallen;
-                }
-                if(!isMobile)
-                {
-                    currentState = bigDogStates.immobile;
-                }
                 break;
             case bigDogStates.fallen:
                 enableActions(false);
