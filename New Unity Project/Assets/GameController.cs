@@ -29,12 +29,18 @@ public class GameController : MonoBehaviour
         private set;
     }
 
+    private GameObject currentAnimation;
+
+    public GameObject beginAnim;
+    public float beginAnimLength;
+    private float currentBeginLength;
     void Awake()
     {
         initInstance();
     }
     void Start()
     {
+        currentBeginLength = beginAnimLength;
         remainingDistance = currentLevel.levelDistance;
     }
 
@@ -58,6 +64,10 @@ public class GameController : MonoBehaviour
         {
             case gameState.begin:
                 BigDog.instance.currentState = BigDog.bigDogStates.immobile;
+                if(beginningAnimation())
+                {
+                    currentState = gameState.inGame;
+                }
                 break;
             case gameState.idle:
                 BigDog.instance.currentState = BigDog.bigDogStates.prefire;
@@ -93,5 +103,22 @@ public class GameController : MonoBehaviour
         {
             return false;
         }
+    }
+
+    bool beginningAnimation()
+    {
+        if(currentAnimation == null)
+        {
+            currentAnimation = Instantiate(beginAnim);
+        }
+
+        currentBeginLength -= Time.deltaTime;
+        if(currentBeginLength <= 0)
+        {
+            Destroy(currentAnimation);
+            currentAnimation = null;
+            return true;
+        }
+        return false;
     }
 }

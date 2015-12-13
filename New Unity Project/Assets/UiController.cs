@@ -9,6 +9,8 @@ public class UiController : MonoBehaviour
         private set;
     }
 
+    public GameObject obstaclesAlert;
+
     void Awake()
     {
         initInstance();
@@ -21,5 +23,10 @@ public class UiController : MonoBehaviour
             Destroy(gameObject);
         }
         instance = this;
+    }
+
+    public void incommingObstacles(bool incomming)
+    {
+        obstaclesAlert.SetActive(incomming);
     }
 }
