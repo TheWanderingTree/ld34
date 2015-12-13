@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using DG.Tweening;
 
 public class BigDog : MonoBehaviour
 {
@@ -22,11 +22,22 @@ public class BigDog : MonoBehaviour
         immobile,
         prefire,
         mobile,
-        fallen
+        fallen,
+        dead
     }
     public bigDogStates currentState;
     public bool isMobile;
     public bool begin = true;
+
+    [Header("Skid Control")]
+    public float duration;
+    public float strength;
+    public int vibrato;
+    public float randomness;
+
+    private Tween currentTween;
+
+    uint currentSound;
     void Awake()
     {
         initInstance();
@@ -35,7 +46,7 @@ public class BigDog : MonoBehaviour
 
     void initInstance()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Destroy(this);
         }
@@ -55,10 +66,9 @@ public class BigDog : MonoBehaviour
 
     void runStates()
     {
-        switch(currentState)
+        switch (currentState)
         {
             case bigDogStates.immobile:
-                //AkSoundEngine.PostEvent("stopBigDog", gameObject);
                 enableActions(false);
                 break;
 
@@ -69,9 +79,22 @@ public class BigDog : MonoBehaviour
                 enableActions(true);
                 break;
             case bigDogStates.fallen:
-                //AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                if (currentTween == null)
+                {
+                    currentTween = transform.DOShakePosition(duration, strength, vibrato, randomness);
+                    AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                }
                 enableActions(false);
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
+                transform.rotation = Quaternion.identity;
+                if (Bag.instance.GetComponent<HingeJoint>())
+                {
+                    Bag.instance.GetComponent<HingeJoint>().breakForce = 0;
+                }
+                GetComponent<Animator>().SetBool("Fallen", true);
+                currentState = bigDogStates.dead;
+                break;
+            case bigDogStates.dead:
                 break;
         }
     }
@@ -86,9 +109,9 @@ public class BigDog : MonoBehaviour
 
     bool checkIfHostile(string hostile)
     {
-        foreach(string tag in hostileTags)
+        foreach (string tag in hostileTags)
         {
-            if(tag == hostile)
+            if (tag == hostile)
             {
                 return true;
             }
