@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36CE8DE8-FC2B-42E3-AE1C-6375EA1CFCEB}" SchemaVersion="70">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{36CE8DE8-FC2B-42E3-AE1C-6375EA1CFCEB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DroneState" ID="{EEB771F4-F5D2-4CA2-8C03-B9BB201C16B5}">
+					<ChildrenList>
+						<Switch Name="Alive" ID="{F5225E4D-DE11-4B37-B68F-1E3BF83025CC}"/>
+						<Switch Name="Dead" ID="{A95CA7F5-C5E2-4559-B830-3857F2EF57E8}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

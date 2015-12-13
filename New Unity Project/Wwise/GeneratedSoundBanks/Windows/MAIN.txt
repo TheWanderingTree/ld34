@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	614269825	buffKickerAttack			\Default Work Unit\buffKickerAttack	
+	690362850	droneSpawn			\Default Work Unit\droneSpawn	
+	823393987	destroyDrone_explode			\Default Work Unit\destroyDrone_explode	
+	1088977592	destroyDrone_spinout			\Default Work Unit\destroyDrone_spinout	
+	2195046349	stopBigDog			\Default Work Unit\stopBigDog	
+	2229533828	bagJostle			\Default Work Unit\bagJostle	
+	3499504239	startBigDog			\Default Work Unit\startBigDog	
+	3938763508	playDesertAmb			\Default Work Unit\playDesertAmb	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3733145084	DroneState			\Default Work Unit\DroneState	
+
+Switch	ID	Name	Switch Group			Notes
+	655265632	Alive	DroneState			
+	2044049779	Dead	DroneState			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	268529915	Engine			\Default Work Unit\Engine	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Engine			
+	2904797076	Stopped	Engine			
+	3863236874	Running	Engine			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	721019617	Stopped	Engine	\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_02		
+	1033999320	Stopped	Engine	\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_01		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+	3395678809	BigDog_Speed			\Default Work Unit\BigDog_Speed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3288627	drone_flyingLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_flyingLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_flyingLoop_01		919780
+	40922257	bag_jostle_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_03		177124
+	59124147	drone_engineWhineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineWhineLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_02		1315636
+	149576738	buffkicker_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_03		72792
+	174721331	bigDog_engineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_02_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_02		1455652
+	178413978	bigDog_engineStop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineStop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineStop_01		415920
+	291305715	drone_death_impact_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_impact_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_02		289680
+	296284240	bag_jostle_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_01		218044
+	300455462	buffkicker_attack_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_02		73616
+	358328695	buffkicker_attack_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_04		74256
+	418451387	drone_death_impact_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_impact_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_01		346656
+	503454362	drone_engineBassLoop_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineBassLoop_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_03		617896
+	553067003	drone_engineBassLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineBassLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_01		600652
+	590495305	drone_death_spinout_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_spinout_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_death_spinout_01		377896
+	648319351	desertAmb_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\desertAmb_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\desertAmb_01		1960964
+	740829738	buffkicker_attack_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_01		88336
+	788645924	bigDog_engineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_01		1142700
+	793245281	drone_death_impact_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_impact_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_03		360072
+	885259706	drone_engineBassLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineBassLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_02		611396
+	942662466	bag_jostle_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_02		178956
+	1030381458	drone_engineWhineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineWhineLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_01		1317736
+

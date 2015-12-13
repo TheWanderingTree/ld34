@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD497065-5A5C-4912-B27F-F41CC111126A}" SchemaVersion="70">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{FD497065-5A5C-4912-B27F-F41CC111126A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance" ID="{C2E6C015-C461-4809-9628-AC608886B217}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BigDog_Speed" ID="{1B6ABD4C-E133-4D47-84CA-8C9126BA03F7}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,18 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	268529915	Engine			\Default Work Unit\Engine	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Engine			
+	2904797076	Stopped	Engine			
+	3863236874	Running	Engine			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\SFX\Enemies	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
