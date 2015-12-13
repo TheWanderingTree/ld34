@@ -316,6 +316,33 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="stopBigDog_noDelay" ID="{45306C15-45F4-4B81-A137-C4269B4926E9}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{45FB5BB7-406C-49E8-9E4C-20DCE0D4CF01}" ShortID="514516700" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Engine" ID="{07F36C2A-D815-4DFA-B9F5-6F4521308336}"/>
+								<GroupItem Name="Stopped" ID="{9DE28D58-5E4E-4BCB-8061-D732B2956C6C}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{4AE837DF-7C37-427B-BC95-01AA26F5E6AE}" ShortID="418302294" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C1644344-F338-4D44-B8B8-5CD75142C311}" Global="false">
+									<ObjectRef Name="engineSwitch" ID="{954DCAFC-1054-41C4-AEA7-9266E190D680}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{4EB58365-C3AB-42DF-B90B-B35F4D21D1B3}" ShortID="861745080" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0ED88ED0-60D6-4C4E-B45C-85D30561A3E9}" Global="false">
+									<ObjectRef Name="bigDog_death" ID="{811D4897-B516-464B-82BE-B58059B1D89F}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
