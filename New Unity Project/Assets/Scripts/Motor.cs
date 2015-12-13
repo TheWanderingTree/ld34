@@ -60,7 +60,7 @@ public class Motor : MonoBehaviour, IActionController
             lean(currentInput.horAxis());
         }
 
-        if (leanInjection > 0)
+        if (leanInjection != 0)
         {
             if (currentClearDelay > 0)
             {
@@ -87,9 +87,9 @@ public class Motor : MonoBehaviour, IActionController
         }
         currentLean = value * leanSpeed * Time.deltaTime;
 
-        Vector3 targetRot = new Vector3(0, 0, (currentLean + (ambientLean * currentDirection)) + leanInjection);
-
-        transform.Rotate(targetRot);
+        Vector3 targetRot = new Vector3(0, 0, (currentLean + (ambientLean * currentDirection)));
+        Vector3 injectedRot = new Vector3(0, 0, leanInjection);
+        transform.Rotate(targetRot + injectedRot);
         Vector3 eulers = transform.rotation.eulerAngles;
 
         if (eulers.z < 180)

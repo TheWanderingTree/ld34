@@ -21,19 +21,20 @@ public class Drone : MonoBehaviour
             particles.transform.position = BigDog.instance.transform.position;
             particles.GetComponent<ParticleSystem>().startLifetime = Mathf.Abs(transform.position.x - BigDog.instance.transform.position.x);
 
+            Vector3 dir = transform.position - BigDog.instance.transform.position;
+            dir = dir.normalized;
+            dir.x = Mathf.Round(dir.x);
+
             if (currentStealRate < 0)
             {
                 Bag.instance.modBagSize(bagStealAmount);
                 currentStealRate = bagStealRate;
+                BigDog.instance.GetComponent<Motor>().leanInjection += leanInfluence * -dir.x;
             }
             else
             {
                 currentStealRate -= Time.deltaTime;
             }
-            Vector3 dir = transform.position - BigDog.instance.transform.position;
-            dir = dir.normalized;
-            dir.x = Mathf.Round(dir.x);
-            BigDog.instance.GetComponent<Motor>().leanInjection = leanInfluence * -dir.x;
         }
     }
 }

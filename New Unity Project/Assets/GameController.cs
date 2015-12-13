@@ -32,15 +32,16 @@ public class GameController : MonoBehaviour
     private GameObject currentAnimation;
 
     public GameObject beginAnim;
-    public float beginAnimLength;
-    private float currentBeginLength;
+    public GameObject levelCompleteAnim;
+    public GameObject gameOverAnim;
+
+    private float currentTitleLength;
     void Awake()
     {
         initInstance();
     }
     void Start()
     {
-        currentBeginLength = beginAnimLength;
         remainingDistance = currentLevel.levelDistance;
     }
 
@@ -64,7 +65,7 @@ public class GameController : MonoBehaviour
         {
             case gameState.begin:
                 BigDog.instance.currentState = BigDog.bigDogStates.immobile;
-                if(beginningAnimation())
+                if(titleAnimation(beginAnim, 3))
                 {
                     currentState = gameState.inGame;
                 }
@@ -74,18 +75,34 @@ public class GameController : MonoBehaviour
                 break;
             case gameState.inGame:
                 BigDog.instance.currentState = BigDog.bigDogStates.mobile;
-                if(traveledDistance())
+
+                if(BigDog.instance.GetComponent<Motor>().hasFallen)
+                {                    
+                    BigDog.instance.currentState = BigDog.bigDogStates.fallen;
+
+                    foreach(GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+                    {
+                        if(enemy.GetComponent<Status>())
+                        {
+                            enemy.GetComponent<Status>().deathEvent();
+                        }
+                    }
+                    if (titleAnimation(gameOverAnim, 5))
+                    {
+                        currentState = gameState.gameOver;
+                    }
+                }
+                else if (traveledDistance())
                 {
                     currentState = gameState.levelComplete;
-                }
-                if(BigDog.instance.GetComponent<Motor>().hasFallen)
-                {
-                    currentState = gameState.gameOver;
-                    BigDog.instance.currentState = BigDog.bigDogStates.fallen;
                 }
                 break;
             case gameState.levelComplete:
                 BigDog.instance.currentState = BigDog.bigDogStates.prefire;
+                if (titleAnimation(levelCompleteAnim, 7))
+                {
+                    currentState = gameState.inGame;
+                }
                 break;
             case gameState.gameOver:
                 break;
@@ -105,15 +122,16 @@ public class GameController : MonoBehaviour
         }
     }
 
-    bool beginningAnimation()
+    bool titleAnimation(GameObject anim, float length)
     {
         if(currentAnimation == null)
         {
-            currentAnimation = Instantiate(beginAnim);
+            currentAnimation = Instantiate(anim);
+            currentTitleLength = length;
         }
 
-        currentBeginLength -= Time.deltaTime;
-        if(currentBeginLength <= 0)
+        currentTitleLength -= Time.deltaTime;
+        if(currentTitleLength <= 0)
         {
             Destroy(currentAnimation);
             currentAnimation = null;

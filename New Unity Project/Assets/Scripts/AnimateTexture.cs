@@ -27,7 +27,8 @@ public class AnimateTexture : MonoBehaviour
         }
 
         if (BigDog.instance.currentState == BigDog.bigDogStates.fallen ||
-            BigDog.instance.currentState == BigDog.bigDogStates.immobile)
+            BigDog.instance.currentState == BigDog.bigDogStates.immobile ||
+            BigDog.instance.currentState == BigDog.bigDogStates.dead)
         {
             uvAnimationRate.y += slowDownRate;
         }
