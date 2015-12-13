@@ -34,8 +34,8 @@
 				<Event Id="555737691" Name="UI_confirmMenu"/>
 				<Event Id="1639539297" Name="UI_obstacleAlert"/>
 				<Event Id="3497004131" Name="UI_selectMenu"/>
-				<Event Id="1637104820" Name="UI_tiltAlertLeft"/>
-				<Event Id="3529644627" Name="UI_tiltAlertRight"/>
+				<Event Id="1637104820" Name="UI_tiltAlertLeft" MaxAttenuation="0.000000"/>
+				<Event Id="3529644627" Name="UI_tiltAlertRight" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="3288627" Language="SFX">

@@ -1,11 +1,15 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	268529915	Engine			\Default Work Unit\Engine	
+	3629189662	Tilt_Direction			\Default Work Unit\Tilt_Direction	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Engine			
 	2904797076	Stopped	Engine			
 	3863236874	Running	Engine			
+	4109362	Left	Tilt_Direction			
+	748895195	None	Tilt_Direction			
+	3893817417	Right	Tilt_Direction			
 	89505537	Gameplay	Music			
 	748895195	None	Music			
 	1125500713	Intro	Music			

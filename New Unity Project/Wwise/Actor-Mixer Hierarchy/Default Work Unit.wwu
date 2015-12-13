@@ -2220,6 +2220,13 @@
 												<File ID="671378564"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="ui_tiltAlert_alarm_03" ID="{55C1F346-430A-4541-95E7-0DE840495B54}" ShortID="265231976">
+											<Language>SFX</Language>
+											<AudioFile>ui_tiltAlert_alarm_02.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="671378564"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_tiltAlert_alarm_02" ID="{5492F1F1-9F6F-465C-8C04-F88B4E2F6318}" Platform="Linked"/>

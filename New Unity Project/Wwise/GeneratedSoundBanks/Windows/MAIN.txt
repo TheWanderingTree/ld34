@@ -43,7 +43,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3288627	drone_flyingLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_flyingLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_flyingLoop_01		919780
-	16888839	ui_tiltAlert_alarm_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_tiltAlert_alarm_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_tiltAlertRight\ui_tiltAlert_alarm_01		297356
+	16888839	ui_tiltAlert_alarm_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_tiltAlert_alarm_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\tiltAlertSwitch\ui_tiltAlertLeft_Loop\ui_tiltAlertLeft\ui_tiltAlert_alarm_01		297144
 	23351845	titleMusic_chorus_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_chorus_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusic_transition_Chorus\titleMusic_chorus_01		7078016
 	40922257	bag_jostle_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_03		177124
 	59124147	drone_engineWhineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineWhineLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_02		1315636
@@ -67,7 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	630154995	drone_death_spinout_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_spinout_03_5BB72005.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathSpinout\drone_death_spinout_03		123616
 	648319351	desertAmb_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\desertAmb_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\desertAmb_01		1960964
 	659618299	bigDog_engineStop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineStop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineStop_01		415952
-	671378564	ui_tiltAlert_alarm_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_tiltAlert_alarm_02_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_tiltAlertRight\ui_tiltAlert_alarm_02		297336
+	671378564	ui_tiltAlert_alarm_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_tiltAlert_alarm_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\tiltAlertSwitch\ui_tiltAlertLeft_Loop\ui_tiltAlertLeft\ui_tiltAlert_alarm_02		297144
 	710605057	bigDog_collision_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_04_B71F7536.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionBarbedWire\bigDog_collision_04		90880
 	787793566	bigDog_collision_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_03_FD748905.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionLandmine\bigDog_collision_03		137436
 	788645924	bigDog_engineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_01		1142700

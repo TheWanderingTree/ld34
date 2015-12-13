@@ -57,6 +57,17 @@ namespace AK
             } // namespace STATE
         } // namespace MUSIC
 
+        namespace TILT_DIRECTION
+        {
+            static const AkUniqueID GROUP = 3629189662U;
+
+            namespace STATE
+            {
+                static const AkUniqueID LEFT = 4109362U;
+                static const AkUniqueID RIGHT = 3893817417U;
+            } // namespace STATE
+        } // namespace TILT_DIRECTION
+
     } // namespace STATES
 
     namespace SWITCHES

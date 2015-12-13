@@ -78,6 +78,10 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="UI_tiltAlertRight" ID="{F700233F-1493-478C-93CA-E449A8BA22C9}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="3" Y="2"/>
 						</Module>
@@ -92,6 +96,10 @@
 						<Module>
 							<ObjectRef Name="UI_tiltAlertLeft" ID="{EFA504E6-3DE9-45AC-A015-6AA124216941}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playTitleMusic" ID="{746BCF13-D3DB-476F-816A-A31C6DC04397}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Obstacles" ID="{F02E44DF-414D-4582-87AB-AB3BF491B9F1}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
@@ -109,12 +117,13 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Tilt_Amount" ID="{467D99D4-8896-4F60-8E1C-68DC625C7425}"/>
-							<Value>57</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
 						<CurrentStateRef Name="Gameplay" ID="{91F86CB1-21C6-4231-967B-88738B5A8A00}"/>
+						<CurrentStateRef Name="Left" ID="{46FC9237-CE7D-48A7-84C8-4DB511F449A6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dead" ID="{A95CA7F5-C5E2-4559-B830-3857F2EF57E8}"/>
