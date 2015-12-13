@@ -60,7 +60,7 @@
 				</File>
 				<File Id="166559222" Language="SFX">
 					<ShortName>bigDog_collision_01.wav</ShortName>
-					<Path>SFX/bigDog_collision_01_9E69E797.wem</Path>
+					<Path>SFX/bigDog_collision_01_BD4875F8.wem</Path>
 				</File>
 				<File Id="174721331" Language="SFX">
 					<ShortName>bigDog_engineLoop_02.wav</ShortName>
@@ -72,7 +72,7 @@
 				</File>
 				<File Id="291305715" Language="SFX">
 					<ShortName>drone_death_impact_02.wav</ShortName>
-					<Path>SFX/drone_death_impact_02_9E69E797.wem</Path>
+					<Path>SFX/drone_death_impact_02_787AE599.wem</Path>
 				</File>
 				<File Id="292766496" Language="SFX">
 					<ShortName>titleMusic_build_01.wav</ShortName>
@@ -80,7 +80,7 @@
 				</File>
 				<File Id="294594352" Language="SFX">
 					<ShortName>bigDog_collision_02.wav</ShortName>
-					<Path>SFX/bigDog_collision_02_9E69E797.wem</Path>
+					<Path>SFX/bigDog_collision_02_81F8B966.wem</Path>
 				</File>
 				<File Id="296284240" Language="SFX">
 					<ShortName>bag_jostle_01.wav</ShortName>
@@ -100,11 +100,11 @@
 				</File>
 				<File Id="418451387" Language="SFX">
 					<ShortName>drone_death_impact_01.wav</ShortName>
-					<Path>SFX/drone_death_impact_01_9E69E797.wem</Path>
+					<Path>SFX/drone_death_impact_01_2C2A2385.wem</Path>
 				</File>
 				<File Id="440191633" Language="SFX">
 					<ShortName>drone_death_spinout_02.wav</ShortName>
-					<Path>SFX/drone_death_spinout_02_9E69E797.wem</Path>
+					<Path>SFX/drone_death_spinout_02_5864D99F.wem</Path>
 				</File>
 				<File Id="503454362" Language="SFX">
 					<ShortName>drone_engineBassLoop_03.wav</ShortName>
@@ -116,7 +116,7 @@
 				</File>
 				<File Id="630154995" Language="SFX">
 					<ShortName>drone_death_spinout_03.wav</ShortName>
-					<Path>SFX/drone_death_spinout_03_9E69E797.wem</Path>
+					<Path>SFX/drone_death_spinout_03_5BB72005.wem</Path>
 				</File>
 				<File Id="648319351" Language="SFX">
 					<ShortName>desertAmb_01.wav</ShortName>
@@ -132,11 +132,11 @@
 				</File>
 				<File Id="710605057" Language="SFX">
 					<ShortName>bigDog_collision_04.wav</ShortName>
-					<Path>SFX/bigDog_collision_04_9E69E797.wem</Path>
+					<Path>SFX/bigDog_collision_04_B71F7536.wem</Path>
 				</File>
 				<File Id="787793566" Language="SFX">
 					<ShortName>bigDog_collision_03.wav</ShortName>
-					<Path>SFX/bigDog_collision_03_9E69E797.wem</Path>
+					<Path>SFX/bigDog_collision_03_FD748905.wem</Path>
 				</File>
 				<File Id="788645924" Language="SFX">
 					<ShortName>bigDog_engineLoop_01.wav</ShortName>
@@ -144,7 +144,7 @@
 				</File>
 				<File Id="793245281" Language="SFX">
 					<ShortName>drone_death_impact_03.wav</ShortName>
-					<Path>SFX/drone_death_impact_03_9E69E797.wem</Path>
+					<Path>SFX/drone_death_impact_03_17ADBFA4.wem</Path>
 				</File>
 				<File Id="806942504" Language="SFX">
 					<ShortName>ui_selectMenu.wav</ShortName>

@@ -9,19 +9,103 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 						</Bus>
 						<Bus Name="SFX" ID="{830982B1-9B9A-4A36-9CA4-B636EE2490B3}">
 							<ChildrenList>
-								<Bus Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}"/>
-								<Bus Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}"/>
-								<Bus Name="UI" ID="{88919CB2-EE2F-49B7-B634-0D62E6C82FE6}"/>
+								<Bus Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{88919CB2-EE2F-49B7-B634-0D62E6C82FE6}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}"/>
+											<DuckingParam>
+												<Volume>-2</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="Obstacles" ID="{F02E44DF-414D-4582-87AB-AB3BF491B9F1}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>0</FadeInTime>
+												<FadeOutTime>0</FadeOutTime>
+												<FadeCurve>FadeLog3</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}"/>
+						<Bus Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Environment" ID="{9EFCE199-5A92-470B-8CA3-2E36456AA7F4}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>

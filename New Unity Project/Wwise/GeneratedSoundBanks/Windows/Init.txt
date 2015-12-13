@@ -18,6 +18,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
 	2242381963	Enemies			\Default Work Unit\Master Audio Bus\SFX\Enemies	
+	2977111165	Obstacles			\Default Work Unit\Master Audio Bus\SFX\Obstacles	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 

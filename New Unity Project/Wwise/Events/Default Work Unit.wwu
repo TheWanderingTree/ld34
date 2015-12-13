@@ -134,7 +134,7 @@
 						</Action>
 						<Action Name="Play" ID="{94C5C347-3A45-472E-88EE-40E1E40EB615}" ShortID="247438555" Type="Play" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.8">
+								<Property Name="Delay" Type="Real64" Value="1.2">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{01808A10-38CF-4699-B184-D6224D236298}">

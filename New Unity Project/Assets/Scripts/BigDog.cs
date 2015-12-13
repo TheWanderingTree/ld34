@@ -58,7 +58,7 @@ public class BigDog : MonoBehaviour
         switch(currentState)
         {
             case bigDogStates.immobile:
-                AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                //AkSoundEngine.PostEvent("stopBigDog", gameObject);
                 enableActions(false);
                 break;
 
@@ -69,7 +69,7 @@ public class BigDog : MonoBehaviour
                 enableActions(true);
                 break;
             case bigDogStates.fallen:
-                AkSoundEngine.PostEvent("stopBigDog", gameObject);
+                //AkSoundEngine.PostEvent("stopBigDog", gameObject);
                 enableActions(false);
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
                 break;
