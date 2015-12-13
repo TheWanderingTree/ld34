@@ -80,7 +80,35 @@
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</HighPassFilterUsage>
 										<SpreadUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Spread" ID="{7182D180-FD91-4834-92CB-0918F9C9CB60}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>50.0000666666667</XPos>
+															<YPos>61.2115</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>78.3699333333333</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
 										</SpreadUsage>
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -372,6 +400,11 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
+																<XPos>99.999</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
 																<XPos>100</XPos>
 																<YPos>-200</YPos>
 																<Flags>37</Flags>
@@ -535,7 +568,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>30</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -665,6 +698,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -751,6 +789,11 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>80</XPos>
+																<YPos>100</YPos>
+																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
