@@ -107,6 +107,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Stop" ID="{022D08E9-E2D3-4B3D-A935-8F8563F8CA29}" ShortID="117934212" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3F75D184-D742-4254-82D6-F69716C31F96}" Global="false">
+									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}">
@@ -301,19 +308,6 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Set State" ID="{3DE64D00-F287-4FD0-9893-4FC5D7F27129}" ShortID="635993469" Type="SetState" Scope="All" Global="true">
-							<SetItemParam>
-								<Group Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}"/>
-								<GroupItem Name="None" ID="{C3BDE6D5-5F14-4956-BC18-92B76516D570}"/>
-							</SetItemParam>
-						</Action>
-						<Action Name="Play" ID="{2731AE3F-EF9E-43B9-8DEA-29EE762F1EF8}" ShortID="376125036" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{10E5833D-BF63-45F2-84F9-ADC5307024E1}" Global="false">
-									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
-								</Element>
-							</ElementList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="stopBigDog_noDelay" ID="{45306C15-45F4-4B81-A137-C4269B4926E9}">
@@ -338,6 +332,30 @@
 							<ElementList>
 								<Element ID="{0ED88ED0-60D6-4C4E-B45C-85D30561A3E9}" Global="false">
 									<ObjectRef Name="bigDog_death" ID="{811D4897-B516-464B-82BE-B58059B1D89F}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{8870190F-15E1-47AF-84E2-86300B866A2F}" ShortID="927180371" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BE6B5491-F377-4D2C-B1B4-CE9484394FAD}" Global="false">
+									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playTiltAlert" ID="{06FCBCC1-432B-4833-AF84-B404EAB7F7F5}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{558CFC99-A096-493B-A73A-285C959F1A36}" ShortID="205892916" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}"/>
+								<GroupItem Name="None" ID="{C3BDE6D5-5F14-4956-BC18-92B76516D570}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Play" ID="{C7D127B4-B38D-4454-AE09-A7F33ADB569A}" ShortID="643097273" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{75EC61CA-D479-4367-9055-9C8FBA76EEAC}" Global="false">
+									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 								</Element>
 							</ElementList>
 						</Action>
