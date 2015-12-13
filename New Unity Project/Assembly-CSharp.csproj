@@ -47,12 +47,14 @@
   <ItemGroup>
      <Compile Include="Assets\Bag.cs" />
      <Compile Include="Assets\Drone.cs" />
+     <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\ObjectMotor.cs" />
      <Compile Include="Assets\ScreenShake.cs" />
      <Compile Include="Assets\Scripts\AnimateTexture.cs" />
      <Compile Include="Assets\Scripts\BigDog.cs" />
      <Compile Include="Assets\Scripts\IActionController.cs" />
      <Compile Include="Assets\Scripts\InterceptMotor.cs" />
+     <Compile Include="Assets\Scripts\LevelObject.cs" />
      <Compile Include="Assets\Scripts\Motor.cs" />
      <Compile Include="Assets\Scripts\controller.cs" />
      <Compile Include="Assets\Scripts\inputs.cs" />
@@ -60,6 +62,9 @@
      <Compile Include="Assets\SolidHit.cs" />
      <Compile Include="Assets\StartMenu.cs" />
      <Compile Include="Assets\Status.cs" />
+     <Compile Include="Assets\TiltMeter.cs" />
+     <Compile Include="Assets\TimedLife.cs" />
+     <Compile Include="Assets\UiController.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkActionOnEventType.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkAudioFormat.cs" />
@@ -161,6 +166,7 @@
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkUtilities.cs" />
+     <Compile Include="Assets\distanceCheck.cs" />
      <None Include="Assets\StreamingAssets\desc.txt" />
      <None Include="Assets\DOTween\DOTween43.xml" />
      <None Include="Assets\Wwise\Readme.txt" />

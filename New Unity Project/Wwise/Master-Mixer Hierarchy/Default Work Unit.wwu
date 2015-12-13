@@ -9,22 +9,14 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 						</Bus>
 						<Bus Name="SFX" ID="{830982B1-9B9A-4A36-9CA4-B636EE2490B3}">
 							<ChildrenList>
-								<Bus Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-18</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-								</Bus>
+								<Bus Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}"/>
 								<Bus Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}"/>
 								<Bus Name="UI" ID="{88919CB2-EE2F-49B7-B634-0D62E6C82FE6}"/>
 							</ChildrenList>

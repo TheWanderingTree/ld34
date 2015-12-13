@@ -14,13 +14,22 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BAGJOSTLE = 2229533828U;
-        static const AkUniqueID BUFFKICKERATTACK = 614269825U;
+        static const AkUniqueID COLLISIONBARBEDWIRE = 2037222792U;
+        static const AkUniqueID COLLISIONLANDMINE = 3926176201U;
+        static const AkUniqueID COLLISIONTANKTRAP = 68125478U;
         static const AkUniqueID DESTROYDRONE_EXPLODE = 823393987U;
         static const AkUniqueID DESTROYDRONE_SPINOUT = 1088977592U;
+        static const AkUniqueID DRONEATTACK = 2687191769U;
         static const AkUniqueID DRONESPAWN = 690362850U;
         static const AkUniqueID PLAYDESERTAMB = 3938763508U;
+        static const AkUniqueID PLAYTITLEMUSIC = 718394488U;
         static const AkUniqueID STARTBIGDOG = 3499504239U;
         static const AkUniqueID STOPBIGDOG = 2195046349U;
+        static const AkUniqueID UI_CONFIRMMENU = 555737691U;
+        static const AkUniqueID UI_OBSTACLEALERT = 1639539297U;
+        static const AkUniqueID UI_SELECTMENU = 3497004131U;
+        static const AkUniqueID UI_TILTALERTLEFT = 1637104820U;
+        static const AkUniqueID UI_TILTALERTRIGHT = 3529644627U;
     } // namespace EVENTS
 
     namespace STATES
@@ -35,6 +44,18 @@ namespace AK
                 static const AkUniqueID STOPPED = 2904797076U;
             } // namespace STATE
         } // namespace ENGINE
+
+        namespace MUSIC
+        {
+            static const AkUniqueID GROUP = 3991942870U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BUILD = 3284755031U;
+                static const AkUniqueID GAMEPLAY = 89505537U;
+                static const AkUniqueID INTRO = 1125500713U;
+            } // namespace STATE
+        } // namespace MUSIC
 
     } // namespace STATES
 
@@ -57,6 +78,7 @@ namespace AK
     {
         static const AkUniqueID BIGDOG_SPEED = 3395678809U;
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID TILT_AMOUNT = 2127427523U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
