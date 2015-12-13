@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A63E7A40-E0C6-4338-963C-C36399E15558}" SchemaVersion="70">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{A63E7A40-E0C6-4338-963C-C36399E15558}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Engine" ID="{07F36C2A-D815-4DFA-B9F5-6F4521308336}">
+					<ChildrenList>
+						<State Name="None" ID="{38F9DD10-ACF9-4CA1-B117-F2A0B831F5EE}"/>
+						<State Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
+						<State Name="Stopped" ID="{9DE28D58-5E4E-4BCB-8061-D732B2956C6C}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
+							<EndState Name="Stopped" ID="{9DE28D58-5E4E-4BCB-8061-D732B2956C6C}"/>
+							<Time>0.2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

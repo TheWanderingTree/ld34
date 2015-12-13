@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{297984CA-C442-4738-8365-940AC5C8A93D}" SchemaVersion="70">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{297984CA-C442-4738-8365-940AC5C8A93D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Environment" ID="{9EFCE199-5A92-470B-8CA3-2E36456AA7F4}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{830982B1-9B9A-4A36-9CA4-B636EE2490B3}">
+							<ChildrenList>
+								<Bus Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}"/>
+								<Bus Name="UI" ID="{88919CB2-EE2F-49B7-B634-0D62E6C82FE6}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
