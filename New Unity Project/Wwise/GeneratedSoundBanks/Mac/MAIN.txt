@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	55290242	stopBigDog_noDelay			\Default Work Unit\stopBigDog_noDelay	
 	68125478	collisionTankTrap			\Default Work Unit\collisionTankTrap	
 	555737691	UI_confirmMenu			\Default Work Unit\UI_confirmMenu	
 	690362850	droneSpawn			\Default Work Unit\droneSpawn	
