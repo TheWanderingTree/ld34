@@ -15,9 +15,12 @@ public class TimedLife : MonoBehaviour
     {
         lifeTime -= Time.deltaTime;
 
-        if(lifeTime <= 0)
+        if (lifeTime <= 0)
         {
-            Instantiate(deathObj, transform.position, Quaternion.identity);
+            if (deathObj)
+            {
+                Instantiate(deathObj, transform.position, Quaternion.identity);
+            }
             Destroy(gameObject);
         }
     }

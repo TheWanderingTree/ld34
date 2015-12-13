@@ -4,7 +4,7 @@ using System.Collections;
 public class Status : MonoBehaviour
 {
     public float health;
-
+    public GameObject deathAnim;
     public void hostileInteraction(float damage)
     {
         health -= damage;
@@ -17,6 +17,7 @@ public class Status : MonoBehaviour
     void deathEvent()
     {
 		AkSoundEngine.PostEvent ("destroyDrone_explode", gameObject);
+        Instantiate(deathAnim, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

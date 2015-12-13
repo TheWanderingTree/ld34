@@ -16,6 +16,7 @@ public class SecretPickup : MonoBehaviour
 
     void deathEvent()
     {
+        Destroy(GetComponent<RaiseSecretAlert>().currentAlertObject);
         Destroy(gameObject);
     }
 }

@@ -28,7 +28,7 @@ public class InterceptMotor : MonoBehaviour
     void moveToIntercept()
     {
         Vector3 targetSpeed = Vector3.zero;
-        Vector3 speed = Vector3.forward * interceptSpeed * Time.deltaTime;
+        Vector3 speed = transform.forward * interceptSpeed * Time.deltaTime;
         transform.Translate(speed);
     }
     

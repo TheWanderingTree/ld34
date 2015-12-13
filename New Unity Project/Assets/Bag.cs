@@ -8,6 +8,7 @@ public class Bag : MonoBehaviour
     private Vector3 initScale;
     private float initMass;
 
+    private Rigidbody rigid;
     public static Bag instance
     {
         get;
@@ -17,8 +18,9 @@ public class Bag : MonoBehaviour
     void Awake()
     {
         initInstance();
+        rigid = GetComponent<Rigidbody>();
         initScale = transform.localScale;
-        initMass = GetComponent<Rigidbody>().mass;
+        initMass = rigid.mass;
     }
 
     void initInstance()
@@ -43,6 +45,7 @@ public class Bag : MonoBehaviour
         transform.localScale = new Vector3(clampScale, clampScale, clampScale);
         Vector3 anchor = GetComponent<HingeJoint>().anchor;
         GetComponent<HingeJoint>().anchor = anchor;
-        GetComponent<Rigidbody>().mass += initMass * 5 * increase;
+        rigid.mass += initMass * 5 * increase;
+        rigid.mass = Mathf.Clamp(rigid.mass, initMass, 300);
     }
 }

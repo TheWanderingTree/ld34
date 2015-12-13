@@ -8,17 +8,13 @@ public class ScreenShake : MonoBehaviour
     public int vibrato;
     public float randomness;
 
-    public bool test;
-    void Update()
-    {
-        if(test)
-        {
-            shake();
-            test = false;
-        }
-    }
+    private Tween currentShake;
+
     public void shake()
     {
-        transform.DOShakePosition(duration, strength, vibrato, randomness);
+        if (currentShake == null || !currentShake.IsPlaying())
+        {
+            currentShake = transform.DOShakePosition(duration, strength, vibrato, randomness);
+        }
     }
 }

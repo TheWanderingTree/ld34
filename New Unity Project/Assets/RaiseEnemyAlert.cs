@@ -11,7 +11,7 @@ public class RaiseEnemyAlert : MonoBehaviour
 
     void Update()
     {
-        float xPos = (transform.position.x / transform.position.x) * xPosOffset;
+        float xPos = (transform.position.x / Mathf.Abs(transform.position.x)) * xPosOffset;
         if(GetComponent<Renderer>().isVisible)
         {
             if (currentAlertObject != null)

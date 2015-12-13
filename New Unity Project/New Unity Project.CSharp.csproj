@@ -80,6 +80,7 @@
     <Compile Include="Assets\IncommingThreat.cs" />
     <Compile Include="Assets\ObjectMotor.cs" />
     <Compile Include="Assets\RaiseEnemyAlert.cs" />
+    <Compile Include="Assets\RaiseSecretAlert.cs" />
     <Compile Include="Assets\ScreenShake.cs" />
     <Compile Include="Assets\Scripts\AnimateTexture.cs" />
     <Compile Include="Assets\Scripts\BigDog.cs" />
