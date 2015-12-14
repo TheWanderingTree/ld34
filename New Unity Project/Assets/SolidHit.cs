@@ -5,6 +5,8 @@ public class SolidHit : MonoBehaviour
 {
     public float hitForce;
 
+    public string soundEvent;
+
     void OnTriggerStay(Collider hit)
     {
 
@@ -20,6 +22,7 @@ public class SolidHit : MonoBehaviour
             {
                 cam.GetComponent<ScreenShake>().shake();
             }
+            AkSoundEngine.PostEvent(soundEvent, gameObject);
         }
     }
 }

@@ -30,6 +30,7 @@ public class RaiseEnemyAlert : MonoBehaviour
                     currentAlertObject = Instantiate(alertObj);
                     currentAlertObject.transform.SetParent(UiController.instance.transform);
                     currentAlertObject.GetComponent<RectTransform>().anchoredPosition = anchor;
+                    AkSoundEngine.PostEvent("UI_obstacleAlert", gameObject);
                 }
             }
         }

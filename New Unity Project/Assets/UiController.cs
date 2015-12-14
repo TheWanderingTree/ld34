@@ -27,6 +27,13 @@ public class UiController : MonoBehaviour
 
     public void incommingObstacles(bool incomming)
     {
-        obstaclesAlert.SetActive(incomming);
+        if (incomming && !obstaclesAlert.activeSelf)
+        {
+            obstaclesAlert.SetActive(true);
+        }
+        else if (!incomming && obstaclesAlert.activeSelf)
+        {
+            obstaclesAlert.SetActive(false);
+        }
     }
 }

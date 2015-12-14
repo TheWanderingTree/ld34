@@ -30,6 +30,7 @@ public class Drone : MonoBehaviour
                 Bag.instance.modBagSize(bagStealAmount);
                 currentStealRate = bagStealRate;
                 BigDog.instance.GetComponent<Motor>().leanInjection += leanInfluence * -dir.x;
+                AkSoundEngine.PostEvent("droneAttack", gameObject);
             }
             else
             {
