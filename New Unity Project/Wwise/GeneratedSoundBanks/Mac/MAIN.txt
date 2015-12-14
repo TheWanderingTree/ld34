@@ -74,7 +74,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	885259706	drone_engineBassLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineBassLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_02		611396
 	942662466	bag_jostle_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bag_jostle_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_02		178956
 	968748557	bigDog_death	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_death_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bigDog_death		797112
-	997516973	drone_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_attack_03_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneAttack\drone_attack_03		922068
+	997516973	drone_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_attack_03_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneAttack\droneAttackBlend\drone_attack_03		922068
 	1019571783	titleMusic_intro_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\titleMusic_intro_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Intro\titleMusic_intro_02\titleMusic_intro_02		2883712
 	1030381458	drone_engineWhineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineWhineLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_01		1317736
 
