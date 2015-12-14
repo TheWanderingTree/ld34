@@ -30,6 +30,7 @@
 				<Event Id="690362850" Name="droneSpawn" MaxAttenuation="100.000000"/>
 				<Event Id="13776098" Name="explosion" MaxAttenuation="100.000000"/>
 				<Event Id="3938763508" Name="playDesertAmb"/>
+				<Event Id="698348403" Name="playGameOverStinger"/>
 				<Event Id="2273201524" Name="playTiltAlert"/>
 				<Event Id="718394488" Name="playTitleMusic"/>
 				<Event Id="3499504239" Name="startBigDog" MaxAttenuation="100.000000"/>
@@ -65,6 +66,10 @@
 				<File Id="59124147" Language="SFX">
 					<ShortName>drone_engineWhineLoop_02.wav</ShortName>
 					<Path>SFX/drone_engineWhineLoop_02_9E69E797.wem</Path>
+				</File>
+				<File Id="119757179" Language="SFX">
+					<ShortName>fallover_loseStinger.wav</ShortName>
+					<Path>SFX/fallover_loseStinger_9E69E797.wem</Path>
 				</File>
 				<File Id="149576738" Language="SFX">
 					<ShortName>buffkicker_attack_03.wav</ShortName>

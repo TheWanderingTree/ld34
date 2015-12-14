@@ -372,6 +372,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="playGameOverStinger" ID="{EB0C1A23-4C52-4986-9372-E8E2DAE9B7FF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{98E7BA48-9409-426A-9F3C-B4F1E412E8A3}" ShortID="90776445" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B07CB72A-95D3-45D2-8A61-B989F54660A8}" Global="false">
+									<ObjectRef Name="fallover_loseStinger" ID="{8DABF815-146E-4BC2-B152-B21CE1959E0E}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{91974EF3-5728-4BF0-B289-1EB0E3EEC20B}" ShortID="948484019" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BD880AA6-274B-45FE-8A19-B71C0B3CA24E}" Global="false">
+									<ObjectRef Name="titleMusicSwitch" ID="{9CD9FE5A-AC06-45F1-8169-A627F37E7AB9}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

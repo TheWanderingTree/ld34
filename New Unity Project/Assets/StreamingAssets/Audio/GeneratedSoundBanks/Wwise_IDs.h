@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID DRONESPAWN = 690362850U;
         static const AkUniqueID EXPLOSION = 13776098U;
         static const AkUniqueID PLAYDESERTAMB = 3938763508U;
+        static const AkUniqueID PLAYGAMEOVERSTINGER = 698348403U;
         static const AkUniqueID PLAYTILTALERT = 2273201524U;
         static const AkUniqueID PLAYTITLEMUSIC = 718394488U;
         static const AkUniqueID STARTBIGDOG = 3499504239U;

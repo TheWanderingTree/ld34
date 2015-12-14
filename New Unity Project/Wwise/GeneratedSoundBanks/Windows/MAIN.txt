@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	555737691	UI_confirmMenu			\Default Work Unit\UI_confirmMenu	
 	614269825	buffKickerAttack			\Default Work Unit\buffKickerAttack	
 	690362850	droneSpawn			\Default Work Unit\droneSpawn	
+	698348403	playGameOverStinger			\Default Work Unit\playGameOverStinger	
 	718394488	playTitleMusic			\Default Work Unit\playTitleMusic	
 	823393987	destroyDrone_explode			\Default Work Unit\destroyDrone_explode	
 	1088977592	destroyDrone_spinout			\Default Work Unit\destroyDrone_spinout	
@@ -52,6 +53,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40922257	bag_jostle_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_03		177124
 	47198582	titleMusic_build_01_incl_transition_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_build_01_incl_transition_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusic_build_01_incl_transition\titleMusic_build_01_incl_transition_01		4709368
 	59124147	drone_engineWhineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineWhineLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_02		1315636
+	119757179	fallover_loseStinger	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\fallover_loseStinger_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\fallover_loseStinger		608416
 	149576738	buffkicker_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_03		72792
 	166559222	bigDog_collision_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_01_2BC3BF71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionTankTrap\bigDog_collision_01		81480
 	174721331	bigDog_engineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_02_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_02		1455652

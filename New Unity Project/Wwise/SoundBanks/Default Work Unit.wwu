@@ -10,6 +10,7 @@
 						<ObjectRef Name="stopBigDog_noDelay" ID="{45306C15-45F4-4B81-A137-C4269B4926E9}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="bagJostle" ID="{69C8EF17-3698-4D9C-820D-76A9478BB361}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="droneAttack" ID="{8231501A-5D5D-4D11-8B4D-9CEF71BE7FB1}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="playGameOverStinger" ID="{EB0C1A23-4C52-4986-9372-E8E2DAE9B7FF}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="collisionBarbedWire" ID="{681BCA27-9D54-46CB-B82B-9C3C3882D879}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_selectMenu" ID="{4C29522B-231B-48EC-835B-7A57211B25E5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_obstacleAlert" ID="{6A7D292F-2747-4D71-A104-E63B78E9FEB5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
