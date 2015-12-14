@@ -20,6 +20,7 @@
 			<Path>MAIN.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2229533828" Name="bagJostle" MaxAttenuation="100.000000"/>
+				<Event Id="614269825" Name="buffKickerAttack" MaxAttenuation="100.000000"/>
 				<Event Id="2037222792" Name="collisionBarbedWire" MaxAttenuation="100.000000"/>
 				<Event Id="3926176201" Name="collisionLandmine" MaxAttenuation="100.000000"/>
 				<Event Id="68125478" Name="collisionTankTrap" MaxAttenuation="100.000000"/>
@@ -64,6 +65,14 @@
 					<ShortName>drone_engineWhineLoop_02.wav</ShortName>
 					<Path>SFX/drone_engineWhineLoop_02_9E69E797.wem</Path>
 				</File>
+				<File Id="111921100" Language="SFX">
+					<ShortName>cutsceneMusic_all_minor.wav</ShortName>
+					<Path>SFX/cutsceneMusic_all_minor_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="149576738" Language="SFX">
+					<ShortName>buffkicker_attack_03.wav</ShortName>
+					<Path>SFX/buffkicker_attack_03_9E69E797.wem</Path>
+				</File>
 				<File Id="166559222" Language="SFX">
 					<ShortName>bigDog_collision_01.wav</ShortName>
 					<Path>SFX/bigDog_collision_01_2BC3BF71.wem</Path>
@@ -92,6 +101,10 @@
 					<ShortName>bag_jostle_01.wav</ShortName>
 					<Path>SFX/bag_jostle_01_9E69E797.wem</Path>
 				</File>
+				<File Id="300455462" Language="SFX">
+					<ShortName>buffkicker_attack_02.wav</ShortName>
+					<Path>SFX/buffkicker_attack_02_9E69E797.wem</Path>
+				</File>
 				<File Id="325466044" Language="SFX">
 					<ShortName>ui_confirmMenu.wav</ShortName>
 					<Path>SFX/ui_confirmMenu_9E69E797.wem</Path>
@@ -99,6 +112,10 @@
 				<File Id="351849787" Language="SFX">
 					<ShortName>titleMusic_intro_01.wav</ShortName>
 					<Path>SFX/titleMusic_intro_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="358328695" Language="SFX">
+					<ShortName>buffkicker_attack_04.wav</ShortName>
+					<Path>SFX/buffkicker_attack_04_9E69E797.wem</Path>
 				</File>
 				<File Id="396661630" Language="SFX">
 					<ShortName>titleMusic_build_02.wav</ShortName>
@@ -140,6 +157,18 @@
 					<ShortName>bigDog_collision_04.wav</ShortName>
 					<Path>SFX/bigDog_collision_04_A7C955AF.wem</Path>
 				</File>
+				<File Id="740829738" Language="SFX">
+					<ShortName>buffkicker_attack_01.wav</ShortName>
+					<Path>SFX/buffkicker_attack_01_9E69E797.wem</Path>
+				</File>
+				<File Id="760840720" Language="SFX">
+					<ShortName>cutsceneMusic_all_major.wav</ShortName>
+					<Path>SFX/cutsceneMusic_all_major_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="772145593" Language="SFX">
+					<ShortName>transition_toCutscene.wav</ShortName>
+					<Path>SFX/transition_toCutscene_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="787793566" Language="SFX">
 					<ShortName>bigDog_collision_03.wav</ShortName>
 					<Path>SFX/bigDog_collision_03_610B9DF3.wem</Path>
@@ -179,6 +208,10 @@
 				<File Id="1030381458" Language="SFX">
 					<ShortName>drone_engineWhineLoop_01.wav</ShortName>
 					<Path>SFX/drone_engineWhineLoop_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1069044238" Language="SFX">
+					<ShortName>transition_toCutscene_minor.wav</ShortName>
+					<Path>SFX/transition_toCutscene_minor_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

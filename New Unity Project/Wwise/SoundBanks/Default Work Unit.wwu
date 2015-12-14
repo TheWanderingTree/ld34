@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="MAIN" ID="{7671620E-2DFD-42F5-819B-D7D21E0DF37D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="buffKickerAttack" ID="{AF32BD0E-2047-484A-B01B-E94ABF16F6A1}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="playTitleMusic" ID="{746BCF13-D3DB-476F-816A-A31C6DC04397}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="stopBigDog_noDelay" ID="{45306C15-45F4-4B81-A137-C4269B4926E9}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="bagJostle" ID="{69C8EF17-3698-4D9C-820D-76A9478BB361}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>

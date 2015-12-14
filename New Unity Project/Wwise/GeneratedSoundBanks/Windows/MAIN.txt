@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	55290242	stopBigDog_noDelay			\Default Work Unit\stopBigDog_noDelay	
 	68125478	collisionTankTrap			\Default Work Unit\collisionTankTrap	
 	555737691	UI_confirmMenu			\Default Work Unit\UI_confirmMenu	
+	614269825	buffKickerAttack			\Default Work Unit\buffKickerAttack	
 	690362850	droneSpawn			\Default Work Unit\droneSpawn	
 	718394488	playTitleMusic			\Default Work Unit\playTitleMusic	
 	823393987	destroyDrone_explode			\Default Work Unit\destroyDrone_explode	
@@ -50,6 +51,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40922257	bag_jostle_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_03		177124
 	47198582	titleMusic_build_01_incl_transition_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_build_01_incl_transition_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusic_build_01_incl_transition\titleMusic_build_01_incl_transition_01		4709368
 	59124147	drone_engineWhineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineWhineLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_02		1315636
+	111921100	cutsceneMusic_all_minor	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\cutsceneMusic_all_minor_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\cutsceneMusic_minor\cutsceneMusic_all_minor\cutsceneMusic_all_minor		8648300
+	149576738	buffkicker_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_03		72792
 	166559222	bigDog_collision_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_01_2BC3BF71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionTankTrap\bigDog_collision_01		81480
 	174721331	bigDog_engineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_02_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_02		1455652
 	256140889	ui_obstacleAlert_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_obstacleAlert_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_obstacleAlert_01		65580
@@ -57,9 +60,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	292766496	titleMusic_build_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_build_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Build\titleMusic_build_01\titleMusic_build_02		8913024
 	294594352	bigDog_collision_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_02_1D83A932.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionTankTrap\bigDog_collision_02		73956
 	296284240	bag_jostle_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bag_jostle_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_01		218044
+	300455462	buffkicker_attack_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_02		73616
 	315504796	drone_attack_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_attack_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneAttack\droneAttackBlend\drone_attack_01		1291992
 	325466044	ui_confirmMenu	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_confirmMenu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_confirmMenu		52404
 	351849787	titleMusic_intro_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_intro_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Intro\titleMusic_intro_01\titleMusic_intro_01		2621568
+	358328695	buffkicker_attack_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_04		74256
 	396661630	titleMusic_build_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_build_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Gameplay_incl_build\titleMusic_build_02\titleMusic_build_02		8388736
 	401428490	drone_attack_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_attack_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneAttack\droneAttackBlend\drone_attack_02		1291992
 	418451387	drone_death_impact_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_impact_01_9C42A4F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_01		122168
@@ -72,6 +77,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	659618299	bigDog_engineStop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineStop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineStop_01		415952
 	671378564	ui_tiltAlert_alarm_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_tiltAlert_alarm_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\tiltAlertSwitch\ui_tiltAlertLeft_Loop\ui_tiltAlertLeft\ui_tiltAlert_alarm_02		297144
 	710605057	bigDog_collision_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_04_A7C955AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionBarbedWire\bigDog_collision_04		90880
+	740829738	buffkicker_attack_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_01		88336
+	760840720	cutsceneMusic_all_major	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\cutsceneMusic_all_major_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\cutsceneMusic_major\cutsceneMusic_all_major\cutsceneMusic_all_major		8124060
+	772145593	transition_toCutscene	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\transition_toCutscene_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene\transition_toCutscene		784028
 	787793566	bigDog_collision_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_03_610B9DF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionLandmine\bigDog_collision_03		137436
 	788645924	bigDog_engineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_01		1142700
 	793245281	drone_death_impact_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_impact_03_B910A721.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_03		130044
@@ -82,4 +90,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	997516973	drone_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_attack_03_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneAttack\droneAttackBlend\drone_attack_03		922068
 	1019571783	titleMusic_intro_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_intro_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Intro\titleMusic_intro_02\titleMusic_intro_02		2883712
 	1030381458	drone_engineWhineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_engineWhineLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_01		1317736
+	1069044238	transition_toCutscene	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\transition_toCutscene_minor_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene_minor\transition_toCutscene		784028
 
