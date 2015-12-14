@@ -12,6 +12,10 @@ public class Controller
     {
         return Input.GetAxis(Inputs.rHorAxis);
     }
+    public float rVerAxis()
+    {
+        return Input.GetAxis(Inputs.rVerAxis);
+    }
 
     public float rawHorAxis()
     {

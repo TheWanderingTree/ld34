@@ -20,7 +20,13 @@ public class GameController : MonoBehaviour
         private set;
     }
 
-    public LevelObject currentLevel;
+    public LevelObject[] availableLevels;
+    public LevelObject currentLevel
+    {
+        get;
+        private set;
+    }
+    private int currentLevelIndex = 0;
 
     public float travelSpeed;
     public float remainingDistance
@@ -45,12 +51,14 @@ public class GameController : MonoBehaviour
     {
         initInstance();
         factories = GetComponents<LevelFactory>();
+        currentLevel = availableLevels[currentLevelIndex];
 
 
     }
     void Start()
     {
         remainingDistance = currentLevel.levelDistance;
+        buildLevel();
         enableFactories(false);
         AkSoundEngine.PostEvent("playTiltAlert", gameObject);
 
@@ -69,7 +77,6 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-
         runStates();
     }
 
@@ -117,7 +124,10 @@ public class GameController : MonoBehaviour
                 enableFactories(false);
                 if (titleAnimation(levelCompleteAnim, 7))
                 {
-                    currentState = gameState.inGame;
+                    if (buildLevel())
+                    {
+                        currentState = gameState.inGame;
+                    }
                 }
                 break;
             case gameState.gameOver:
@@ -131,6 +141,20 @@ public class GameController : MonoBehaviour
         }
     }
 
+    bool buildLevel()
+    {
+        if (currentLevelIndex > availableLevels.Length - 1)
+        {
+            currentLevelIndex = 0;
+        }
+        currentLevel = availableLevels[currentLevelIndex];
+        remainingDistance = currentLevel.levelDistance;
+
+        SkyPlane.instance.GetComponent<Renderer>().material = currentLevel.sky;
+        GroundPlane.instance.GetComponent<Renderer>().material = currentLevel.ground;
+        currentLevelIndex++;
+        return true;
+    }
     bool traveledDistance()
     {
         remainingDistance -= travelSpeed;

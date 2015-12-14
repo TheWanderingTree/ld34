@@ -74,36 +74,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudioOverride.cs" />
-    <Compile Include="Assets\Bag.cs" />
-    <Compile Include="Assets\DelayedSound.cs" />
-    <Compile Include="Assets\Drone.cs" />
-    <Compile Include="Assets\GameController.cs" />
-    <Compile Include="Assets\IncommingThreat.cs" />
-    <Compile Include="Assets\LevelFactory.cs" />
-    <Compile Include="Assets\ObjectMotor.cs" />
-    <Compile Include="Assets\RaiseEnemyAlert.cs" />
-    <Compile Include="Assets\RaiseSecretAlert.cs" />
-    <Compile Include="Assets\ScreenShake.cs" />
+    <Compile Include="Assets\ApplyForceIndicator.cs" />
+    <Compile Include="Assets\GroundPlane.cs" />
     <Compile Include="Assets\Scripts\AnimateTexture.cs" />
+    <Compile Include="Assets\Scripts\AudioOverride.cs" />
+    <Compile Include="Assets\Scripts\Bag.cs" />
     <Compile Include="Assets\Scripts\BigDog.cs" />
+    <Compile Include="Assets\Scripts\DelayedSound.cs" />
+    <Compile Include="Assets\Scripts\Drone.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\IActionController.cs" />
+    <Compile Include="Assets\Scripts\IncommingThreat.cs" />
     <Compile Include="Assets\Scripts\InterceptMotor.cs" />
+    <Compile Include="Assets\Scripts\LevelFactory.cs" />
     <Compile Include="Assets\Scripts\LevelObject.cs" />
     <Compile Include="Assets\Scripts\Motor.cs" />
+    <Compile Include="Assets\Scripts\ObjectMotor.cs" />
+    <Compile Include="Assets\Scripts\RaiseEnemyAlert.cs" />
+    <Compile Include="Assets\Scripts\RaiseSecretAlert.cs" />
+    <Compile Include="Assets\Scripts\ScreenShake.cs" />
+    <Compile Include="Assets\Scripts\SecretPickup.cs" />
+    <Compile Include="Assets\Scripts\Segway.cs" />
+    <Compile Include="Assets\Scripts\SolidHit.cs" />
+    <Compile Include="Assets\Scripts\StartMenu.cs" />
+    <Compile Include="Assets\Scripts\Status.cs" />
+    <Compile Include="Assets\Scripts\TiltMeter.cs" />
+    <Compile Include="Assets\Scripts\TimedLife.cs" />
+    <Compile Include="Assets\Scripts\UiController.cs" />
+    <Compile Include="Assets\Scripts\UiParenter.cs" />
+    <Compile Include="Assets\Scripts\VideoPlayer.cs" />
+    <Compile Include="Assets\Scripts\WorldCanvas.cs" />
+    <Compile Include="Assets\Scripts\WwiseGlobal.cs" />
     <Compile Include="Assets\Scripts\controller.cs" />
+    <Compile Include="Assets\Scripts\distanceCheck.cs" />
     <Compile Include="Assets\Scripts\inputs.cs" />
-    <Compile Include="Assets\SecretPickup.cs" />
-    <Compile Include="Assets\Segway.cs" />
-    <Compile Include="Assets\SolidHit.cs" />
-    <Compile Include="Assets\StartMenu.cs" />
-    <Compile Include="Assets\Status.cs" />
-    <Compile Include="Assets\TiltMeter.cs" />
-    <Compile Include="Assets\TimedLife.cs" />
-    <Compile Include="Assets\UiController.cs" />
-    <Compile Include="Assets\UiParenter.cs" />
-    <Compile Include="Assets\VideoPlayer.cs" />
-    <Compile Include="Assets\WorldCanvas.cs" />
+    <Compile Include="Assets\Scripts\rotationAdjust.cs" />
+    <Compile Include="Assets\SkyPlane.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkActionOnEventType.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkAudioFormat.cs" />
@@ -205,9 +211,6 @@
     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
     <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
     <Compile Include="Assets\Wwise\Deployment\Components\AkUtilities.cs" />
-    <Compile Include="Assets\WwiseGlobal.cs" />
-    <Compile Include="Assets\distanceCheck.cs" />
-    <Compile Include="Assets\rotationAdjust.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DOTween\DOTween.XML" />

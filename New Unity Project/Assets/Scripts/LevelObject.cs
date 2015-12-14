@@ -5,6 +5,9 @@ public class LevelObject : MonoBehaviour
 {
     public float levelDistance;
 
+    public Material sky;
+    public Material ground;
+
     public GameObject[] availableEnemies;
     public float enemySpawnDelayMax;
     public float enemySpawnDelayMin;
