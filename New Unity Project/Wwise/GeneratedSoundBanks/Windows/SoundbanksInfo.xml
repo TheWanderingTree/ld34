@@ -191,6 +191,10 @@
 					<ShortName>drone_death_spinout_03.wav</ShortName>
 					<Path>SFX/drone_death_spinout_03_CF905402.wem</Path>
 				</File>
+				<File Id="636127095" Language="SFX">
+					<ShortName>fallover_loseStinger.wav</ShortName>
+					<Path>SFX/fallover_loseStinger_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="648319351" Language="SFX">
 					<ShortName>desertAmb_01.wav</ShortName>
 					<Path>SFX/desertAmb_01_4B8CC0C5.wem</Path>

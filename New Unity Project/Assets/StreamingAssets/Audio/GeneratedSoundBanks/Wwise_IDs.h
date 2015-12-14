@@ -58,6 +58,17 @@ namespace AK
             } // namespace STATE
         } // namespace ENGINE
 
+        namespace EXPLOSIONFX
+        {
+            static const AkUniqueID GROUP = 1395599512U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MUFFLED = 4200322818U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace STATE
+        } // namespace EXPLOSIONFX
+
         namespace MUSIC
         {
             static const AkUniqueID GROUP = 3991942870U;
@@ -69,6 +80,7 @@ namespace AK
                 static const AkUniqueID CUTSCENE_MINOR = 3180957319U;
                 static const AkUniqueID ENDING_HAPPY = 1324127679U;
                 static const AkUniqueID ENDING_SAD = 2635390553U;
+                static const AkUniqueID FALLDOWN_LOSESTINGER = 2852379868U;
                 static const AkUniqueID GAMEPLAY = 89505537U;
                 static const AkUniqueID INTRO = 1125500713U;
             } // namespace STATE

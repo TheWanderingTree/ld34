@@ -5,12 +5,33 @@
 			<ChildrenList>
 				<Event Name="buffKickerAttack" ID="{AF32BD0E-2047-484A-B01B-E94ABF16F6A1}">
 					<ChildrenList>
+						<Action Name="Set State" ID="{D0DA8139-84C6-47F9-B655-0BB0B9A43EC7}" ShortID="1050603786" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
+						</Action>
 						<Action Name="Play" ID="{5A466F00-1342-4AB2-A7F6-FF2307362C8A}" ShortID="293212494" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{385F5DD3-13F8-46FC-9419-3B9DA3DEDFAF}" Global="false">
 									<ObjectRef Name="buffkicker_attack" ID="{4BF6C52B-888B-4E34-B4C0-562140D9061D}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 								</Element>
 							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{8030FF29-9650-497F-B587-06DE033384C8}" ShortID="843998546" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{0298B3DE-CA03-4BBD-9AAD-9CBD9E9F6894}" ShortID="1013896629" Type="SetState" Scope="All" Global="true">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.6"/>
+							</PropertyList>
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -191,6 +212,12 @@
 				</Event>
 				<Event Name="collisionTankTrap" ID="{53631F81-8213-419F-A8B6-EA4F0522CF5E}">
 					<ChildrenList>
+						<Action Name="Set State" ID="{3AF55629-CB8E-4B8B-A276-F127C722483D}" ShortID="950400712" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
+						</Action>
 						<Action Name="Play" ID="{CDA2B108-460F-43EE-9BCD-1B23F2B9DEC9}" ShortID="138511933" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{578C2A2B-256B-41E1-8CD4-EF8EFC7DEEF5}" Global="false">
@@ -204,6 +231,21 @@
 									<ObjectRef Name="bigDog_collision_02" ID="{B8572839-092F-4142-8D5A-E549732F2789}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 								</Element>
 							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{BC54043E-0233-4A22-85E7-9A2C6225F8B8}" ShortID="808825822" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{DA75FAF5-17ED-4AAD-B64F-E2E9D5739BF5}" ShortID="855611346" Type="SetState" Scope="All" Global="true">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -220,6 +262,12 @@
 				</Event>
 				<Event Name="collisionBarbedWire" ID="{681BCA27-9D54-46CB-B82B-9C3C3882D879}">
 					<ChildrenList>
+						<Action Name="Set State" ID="{3738D45E-205D-47FA-942E-1E5EE6C44B4E}" ShortID="343749808" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
+						</Action>
 						<Action Name="Play" ID="{3D9128A1-5630-4697-9898-690DA9298A7F}" ShortID="928546388" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{9A8E2830-89A0-42DE-91F3-2150621F59C4}" Global="false">
@@ -227,16 +275,52 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Set State" ID="{C80EFF7F-12A7-4140-93BB-1B90B6F155EB}" ShortID="890599334" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{8CD2E7A5-118C-48B1-BC22-DC7A156EB3AF}" ShortID="852772798" Type="SetState" Scope="All" Global="true">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="collisionLandmine" ID="{9B8F526A-DA52-48B3-B7FC-3AB390E2AE8E}">
 					<ChildrenList>
+						<Action Name="Set State" ID="{B005F2ED-B769-4233-A421-5E4171D242BF}" ShortID="625961784" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
+						</Action>
 						<Action Name="Play" ID="{8A8F35CF-C5D6-47C9-917C-85FC2CE22A9F}" ShortID="759368664" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{C5B89AD4-BE55-4514-B052-88DB6337D00B}" Global="false">
 									<ObjectRef Name="bigDog_collision_03" ID="{ABD948A5-EA59-4A08-A460-C221BB2A5A57}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 								</Element>
 							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{E10B7917-54CD-48B8-8DAC-F930DFE5FB4C}" ShortID="1049962177" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{31DBB595-5AD5-4BC9-BC0E-B4256C85FD10}" ShortID="66700704" Type="SetState" Scope="All" Global="true">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.2"/>
+							</PropertyList>
+							<SetItemParam>
+								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+								<GroupItem Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							</SetItemParam>
 						</Action>
 					</ChildrenList>
 				</Event>

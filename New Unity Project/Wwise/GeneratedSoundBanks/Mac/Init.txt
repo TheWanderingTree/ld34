@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	268529915	Engine			\Default Work Unit\Engine	
+	1395599512	ExplosionFX			\Default Work Unit\ExplosionFX	
 	3629189662	Tilt_Direction			\Default Work Unit\Tilt_Direction	
 	3991942870	Music			\Default Work Unit\Music	
 
@@ -7,6 +8,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	Engine			
 	2904797076	Stopped	Engine			
 	3863236874	Running	Engine			
+	748895195	None	ExplosionFX			
+	1160234136	Normal	ExplosionFX			
+	4200322818	Muffled	ExplosionFX			
 	4109362	Left	Tilt_Direction			
 	748895195	None	Tilt_Direction			
 	3893817417	Right	Tilt_Direction			
@@ -16,8 +20,12 @@ State	ID	Name	State Group			Notes
 	1125500713	Intro	Music			
 	1324127679	Ending_Happy	Music			
 	2635390553	Ending_Sad	Music			
+	2852379868	Falldown_LoseStinger	Music			
 	3180957319	Cutscene_Minor	Music			
 	3284755031	Build	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	353082446	Muffled	ExplosionFX	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	

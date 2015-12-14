@@ -41,6 +41,24 @@
 						<State Name="Right" ID="{193444CD-68DA-473F-9B44-9DA2D6CB5858}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{0E22A091-5743-41E8-B988-79E5F24077CB}"/>
+						<State Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+						<State Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+							<EndState Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -125,6 +125,23 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Muffled" ID="{AC3DFD2C-B1CB-4FC5-BC2D-89351D10E71A}"/>
+										<State Name="Custom State" ID="{49262B24-D796-450E-9C32-AD0C8F415FC1}" ShortID="353082446">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="75"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Environment" ID="{9EFCE199-5A92-470B-8CA3-2E36456AA7F4}"/>
