@@ -107,9 +107,9 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Stop" ID="{022D08E9-E2D3-4B3D-A935-8F8563F8CA29}" ShortID="117934212" Type="Stop" Scope="One" Global="false">
+						<Action Name="Stop" ID="{022D08E9-E2D3-4B3D-A935-8F8563F8CA29}" ShortID="117934212" Type="Stop" Scope="One" Global="true">
 							<ElementList>
-								<Element ID="{3F75D184-D742-4254-82D6-F69716C31F96}" Global="false">
+								<Element ID="{3F75D184-D742-4254-82D6-F69716C31F96}" Global="true">
 									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 								</Element>
 							</ElementList>
@@ -335,9 +335,9 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Stop" ID="{8870190F-15E1-47AF-84E2-86300B866A2F}" ShortID="927180371" Type="Stop" Scope="One" Global="false">
+						<Action Name="Stop" ID="{8870190F-15E1-47AF-84E2-86300B866A2F}" ShortID="927180371" Type="Stop" Scope="One" Global="true">
 							<ElementList>
-								<Element ID="{BE6B5491-F377-4D2C-B1B4-CE9484394FAD}" Global="false">
+								<Element ID="{BE6B5491-F377-4D2C-B1B4-CE9484394FAD}" Global="true">
 									<ObjectRef Name="tiltAlertSwitch" ID="{FDCC90C1-EA22-440D-BFA4-3DE75219027A}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 								</Element>
 							</ElementList>
