@@ -32,6 +32,7 @@
 				<Event Id="718394488" Name="playTitleMusic"/>
 				<Event Id="3499504239" Name="startBigDog" MaxAttenuation="100.000000"/>
 				<Event Id="2195046349" Name="stopBigDog" MaxAttenuation="100.000000"/>
+				<Event Id="55290242" Name="stopBigDog_noDelay" MaxAttenuation="100.000000"/>
 				<Event Id="555737691" Name="UI_confirmMenu"/>
 				<Event Id="1639539297" Name="UI_obstacleAlert"/>
 				<Event Id="3497004131" Name="UI_selectMenu"/>
@@ -54,6 +55,10 @@
 				<File Id="40922257" Language="SFX">
 					<ShortName>bag_jostle_03.wav</ShortName>
 					<Path>SFX/bag_jostle_03_9E69E797.wem</Path>
+				</File>
+				<File Id="47198582" Language="SFX">
+					<ShortName>titleMusic_build_01_incl_transition.wav</ShortName>
+					<Path>SFX/titleMusic_build_01_incl_transition_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="59124147" Language="SFX">
 					<ShortName>drone_engineWhineLoop_02.wav</ShortName>

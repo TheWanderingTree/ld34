@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAYTITLEMUSIC = 718394488U;
         static const AkUniqueID STARTBIGDOG = 3499504239U;
         static const AkUniqueID STOPBIGDOG = 2195046349U;
+        static const AkUniqueID STOPBIGDOG_NODELAY = 55290242U;
         static const AkUniqueID UI_CONFIRMMENU = 555737691U;
         static const AkUniqueID UI_OBSTACLEALERT = 1639539297U;
         static const AkUniqueID UI_SELECTMENU = 3497004131U;
