@@ -181,6 +181,12 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Set State" ID="{11BAAAC9-7B05-41F7-A5D4-5A8B0E20A55C}" ShortID="231998747" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="MagnetFX" ID="{15C1F625-8C47-496B-B89B-F1DCA2EEFBFD}"/>
+								<GroupItem Name="Off" ID="{37ACF66F-80C6-41B7-833F-E86CDB472694}"/>
+							</SetItemParam>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="destroyDrone_explode" ID="{86D70AA4-9CEC-49FE-924C-4F95F89C3712}">
@@ -207,6 +213,12 @@
 									<ObjectRef Name="droneAttack" ID="{149DDF9E-584E-42D1-A0A1-DCBBD0E267A9}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 								</Element>
 							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{32E3D065-03BC-4537-8145-221E83FFC521}" ShortID="869587910" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="MagnetFX" ID="{15C1F625-8C47-496B-B89B-F1DCA2EEFBFD}"/>
+								<GroupItem Name="Off" ID="{37ACF66F-80C6-41B7-833F-E86CDB472694}"/>
+							</SetItemParam>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -251,12 +263,24 @@
 				</Event>
 				<Event Name="droneAttack" ID="{8231501A-5D5D-4D11-8B4D-9CEF71BE7FB1}">
 					<ChildrenList>
+						<Action Name="Set State" ID="{AC0F7B96-800A-4041-BE43-72E6CFA24611}" ShortID="693752155" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="MagnetFX" ID="{15C1F625-8C47-496B-B89B-F1DCA2EEFBFD}"/>
+								<GroupItem Name="Off" ID="{37ACF66F-80C6-41B7-833F-E86CDB472694}"/>
+							</SetItemParam>
+						</Action>
 						<Action Name="Play" ID="{EE442E9A-A37E-418E-B0B0-D9D4FF9B5961}" ShortID="719064676" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{6FD9F6F1-B5DA-44BA-866B-846B2C3B0952}" Global="false">
 									<ObjectRef Name="droneAttack" ID="{149DDF9E-584E-42D1-A0A1-DCBBD0E267A9}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
 								</Element>
 							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{FCD98E58-3C00-4C6E-9F75-5F9661FEF404}" ShortID="748407436" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="MagnetFX" ID="{15C1F625-8C47-496B-B89B-F1DCA2EEFBFD}"/>
+								<GroupItem Name="On" ID="{25F993E0-0F98-4C77-A694-0F9FBF3F8B1E}"/>
+							</SetItemParam>
 						</Action>
 					</ChildrenList>
 				</Event>

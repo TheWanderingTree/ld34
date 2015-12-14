@@ -69,6 +69,17 @@ namespace AK
             } // namespace STATE
         } // namespace EXPLOSIONFX
 
+        namespace MAGNETFX
+        {
+            static const AkUniqueID GROUP = 845799413U;
+
+            namespace STATE
+            {
+                static const AkUniqueID OFF = 930712164U;
+                static const AkUniqueID ON = 1651971902U;
+            } // namespace STATE
+        } // namespace MAGNETFX
+
         namespace MUSIC
         {
             static const AkUniqueID GROUP = 3991942870U;

@@ -59,6 +59,16 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="MagnetFX" ID="{15C1F625-8C47-496B-B89B-F1DCA2EEFBFD}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{882C0DBA-FCCF-483B-891D-B1ED05BAFD05}"/>
+						<State Name="On" ID="{25F993E0-0F98-4C77-A694-0F9FBF3F8B1E}"/>
+						<State Name="Off" ID="{37ACF66F-80C6-41B7-833F-E86CDB472694}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

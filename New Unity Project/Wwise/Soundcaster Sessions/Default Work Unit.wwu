@@ -153,6 +153,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="droneAttack" ID="{8231501A-5D5D-4D11-8B4D-9CEF71BE7FB1}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="titleMusicSwitch" ID="{9CD9FE5A-AC06-45F1-8169-A627F37E7AB9}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 							<Position X="0" Y="2"/>
 						</Module>
@@ -161,8 +165,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="droneSpawn" ID="{A388D5A2-1D1F-44C4-BB6C-1468C8D225C6}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="collisionLandmine" ID="{9B8F526A-DA52-48B3-B7FC-3AB390E2AE8E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="destroyDrone_explode" ID="{86D70AA4-9CEC-49FE-924C-4F95F89C3712}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="collisionTankTrap" ID="{53631F81-8213-419F-A8B6-EA4F0522CF5E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}"/>
@@ -172,7 +184,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{C2E6C015-C461-4809-9628-AC608886B217}"/>
-							<Value>24</Value>
+							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="BigDog_Speed" ID="{1B6ABD4C-E133-4D47-84CA-8C9126BA03F7}"/>
@@ -184,11 +196,12 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Off" ID="{37ACF66F-80C6-41B7-833F-E86CDB472694}"/>
 						<CurrentStateRef Name="Gameplay" ID="{91F86CB1-21C6-4231-967B-88738B5A8A00}"/>
 						<CurrentStateRef Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Alive" ID="{F5225E4D-DE11-4B37-B68F-1E3BF83025CC}"/>
+						<CurrentSwitchRef Name="Dead" ID="{A95CA7F5-C5E2-4559-B830-3857F2EF57E8}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

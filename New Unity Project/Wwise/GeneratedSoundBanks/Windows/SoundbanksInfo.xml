@@ -125,7 +125,7 @@
 				</File>
 				<File Id="315504796" Language="SFX">
 					<ShortName>drone_attack_01.wav</ShortName>
-					<Path>SFX/drone_attack_01_9E69E797.wem</Path>
+					<Path>SFX/drone_attack_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="325466044" Language="SFX">
 					<ShortName>ui_confirmMenu.wav</ShortName>
@@ -149,7 +149,7 @@
 				</File>
 				<File Id="401428490" Language="SFX">
 					<ShortName>drone_attack_02.wav</ShortName>
-					<Path>SFX/drone_attack_02_9E69E797.wem</Path>
+					<Path>SFX/drone_attack_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="416936183" Language="SFX">
 					<ShortName>missionStart_01.wav</ShortName>

@@ -1117,6 +1117,7 @@
 												<Platform>Mac</Platform>
 											</ExcludedPlatformList>
 											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="PositioningType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -1217,6 +1218,7 @@
 												<Platform>Mac</Platform>
 											</ExcludedPlatformList>
 											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="PositioningType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>

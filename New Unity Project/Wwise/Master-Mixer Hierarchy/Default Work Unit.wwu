@@ -130,6 +130,9 @@
 									<StateGroupInfo>
 										<StateGroupRef Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
 									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="MagnetFX" ID="{15C1F625-8C47-496B-B89B-F1DCA2EEFBFD}"/>
+									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
@@ -137,6 +140,22 @@
 										<State Name="Custom State" ID="{49262B24-D796-450E-9C32-AD0C8F415FC1}" ShortID="353082446">
 											<PropertyList>
 												<Property Name="Lowpass" Type="int16" Value="75"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{BDC5EDB7-E2B5-44E3-A5E3-381680658646}"/>
+										<State Name="Custom State" ID="{E3C86631-8CB5-4691-8A68-1B1A93150672}" ShortID="179037784">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="1"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="On" ID="{25F993E0-0F98-4C77-A694-0F9FBF3F8B1E}"/>
+										<State Name="Custom State" ID="{82A57A98-C40F-48EB-978E-1462593C3096}" ShortID="595309026">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="33"/>
 											</PropertyList>
 										</State>
 									</CustomState>
