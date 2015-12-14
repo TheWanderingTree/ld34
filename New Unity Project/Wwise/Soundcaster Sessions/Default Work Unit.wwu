@@ -121,12 +121,12 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Stopped" ID="{9DE28D58-5E4E-4BCB-8061-D732B2956C6C}"/>
+						<CurrentStateRef Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
 						<CurrentStateRef Name="Intro" ID="{839EA78D-D3D3-45E4-8BA5-FC63779EA020}"/>
 						<CurrentStateRef Name="Right" ID="{193444CD-68DA-473F-9B44-9DA2D6CB5858}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dead" ID="{A95CA7F5-C5E2-4559-B830-3857F2EF57E8}"/>
+						<CurrentSwitchRef Name="Alive" ID="{F5225E4D-DE11-4B37-B68F-1E3BF83025CC}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
