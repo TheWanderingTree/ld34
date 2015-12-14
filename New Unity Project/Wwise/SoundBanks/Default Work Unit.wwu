@@ -14,6 +14,7 @@
 						<ObjectRef Name="UI_selectMenu" ID="{4C29522B-231B-48EC-835B-7A57211B25E5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_obstacleAlert" ID="{6A7D292F-2747-4D71-A104-E63B78E9FEB5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_tiltAlertRight" ID="{F700233F-1493-478C-93CA-E449A8BA22C9}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="explosion" ID="{C681A943-37CF-47CE-B3EC-8D7ECFFFBE50}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_confirmMenu" ID="{AF81BC56-2A4C-4918-BC49-CB484A62DC45}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="collisionLandmine" ID="{9B8F526A-DA52-48B3-B7FC-3AB390E2AE8E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>

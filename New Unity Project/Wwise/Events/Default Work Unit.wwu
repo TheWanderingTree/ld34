@@ -361,6 +361,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="explosion" ID="{C681A943-37CF-47CE-B3EC-8D7ECFFFBE50}">
+					<ChildrenList>
+						<Action Name="Play" ID="{83FD5654-7C4F-4A74-B584-F7362AE17BDB}" ShortID="551487700" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{ADC1F5F8-3E75-4451-8085-7B1A6527AD66}" Global="false">
+									<ObjectRef Name="drone_deathImpact" ID="{80A1D8F8-D37E-4F81-ABFA-65E321D9F4B2}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	13776098	explosion			\Default Work Unit\explosion	
 	55290242	stopBigDog_noDelay			\Default Work Unit\stopBigDog_noDelay	
 	68125478	collisionTankTrap			\Default Work Unit\collisionTankTrap	
 	555737691	UI_confirmMenu			\Default Work Unit\UI_confirmMenu	
@@ -62,7 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	300455462	buffkicker_attack_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_02		73616
 	315504796	drone_attack_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_attack_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneAttack\droneAttackBlend\drone_attack_01		1291992
 	325466044	ui_confirmMenu	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\ui_confirmMenu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_confirmMenu		52404
-	344346590	transition_toCutscene_Cmaj	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\transition_toCutscene_Cmaj_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene\transition_toCutscene_Cmaj		783980
+	344346590	transition_toCutscene_Cmaj	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\transition_toCutscene_Cmaj_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene_minor\transition_toCutscene_Cmaj		783980
 	351849787	titleMusic_intro_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_intro_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Intro\titleMusic_intro_01\titleMusic_intro_01		2621568
 	358328695	buffkicker_attack_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_04		74256
 	396661630	titleMusic_build_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\titleMusic_build_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Gameplay_incl_build\titleMusic_build_02\titleMusic_build_02		8388736
@@ -81,7 +82,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	710605057	bigDog_collision_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_04_A7C955AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionBarbedWire\bigDog_collision_04		90880
 	729029128	transition_basic	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\transition_basic_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_basic\transition_basic		783980
 	740829738	buffkicker_attack_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\buffkicker_attack_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_01		88336
-	772145593	transition_toCutscene	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\transition_toCutscene_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene\transition_toCutscene		784028
 	787793566	bigDog_collision_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_collision_03_610B9DF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionLandmine\bigDog_collision_03		137436
 	788645924	bigDog_engineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\bigDog_engineLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_01		1142700
 	793245281	drone_death_impact_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Windows\SFX\drone_death_impact_03_B910A721.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_03		130044

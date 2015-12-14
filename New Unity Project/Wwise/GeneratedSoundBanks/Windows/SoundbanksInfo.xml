@@ -28,6 +28,7 @@
 				<Event Id="1088977592" Name="destroyDrone_spinout" MaxAttenuation="100.000000"/>
 				<Event Id="2687191769" Name="droneAttack" MaxAttenuation="100.000000"/>
 				<Event Id="690362850" Name="droneSpawn" MaxAttenuation="100.000000"/>
+				<Event Id="13776098" Name="explosion" MaxAttenuation="100.000000"/>
 				<Event Id="3938763508" Name="playDesertAmb"/>
 				<Event Id="2273201524" Name="playTiltAlert"/>
 				<Event Id="718394488" Name="playTitleMusic"/>
@@ -184,10 +185,6 @@
 				<File Id="740829738" Language="SFX">
 					<ShortName>buffkicker_attack_01.wav</ShortName>
 					<Path>SFX/buffkicker_attack_01_9E69E797.wem</Path>
-				</File>
-				<File Id="772145593" Language="SFX">
-					<ShortName>transition_toCutscene.wav</ShortName>
-					<Path>SFX/transition_toCutscene_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="787793566" Language="SFX">
 					<ShortName>bigDog_collision_03.wav</ShortName>
