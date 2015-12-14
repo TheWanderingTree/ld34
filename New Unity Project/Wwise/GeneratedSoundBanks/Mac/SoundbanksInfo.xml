@@ -279,6 +279,10 @@
 					<ShortName>three.wav</ShortName>
 					<Path>SFX/three_9E69E797.wem</Path>
 				</File>
+				<File Id="1060285212" Language="SFX">
+					<ShortName>bigDog_collision_03_tone.wav</ShortName>
+					<Path>SFX/bigDog_collision_03_tone_422B1D72.wem</Path>
+				</File>
 				<File Id="1067935872" Language="SFX">
 					<ShortName>cutsceneMusic_all_major_Cmaj.wav</ShortName>
 					<Path>SFX/cutsceneMusic_all_major_Cmaj_4B8CC0C5.wem</Path>

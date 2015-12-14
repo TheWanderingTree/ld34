@@ -26,7 +26,7 @@
 						</Action>
 						<Action Name="Set State" ID="{0298B3DE-CA03-4BBD-9AAD-9CBD9E9F6894}" ShortID="1013896629" Type="SetState" Scope="All" Global="true">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.6"/>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
 							</PropertyList>
 							<SetItemParam>
 								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
@@ -252,7 +252,7 @@
 						</Action>
 						<Action Name="Set State" ID="{DA75FAF5-17ED-4AAD-B64F-E2E9D5739BF5}" ShortID="855611346" Type="SetState" Scope="All" Global="true">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.7"/>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
 							</PropertyList>
 							<SetItemParam>
 								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
@@ -307,7 +307,7 @@
 						</Action>
 						<Action Name="Set State" ID="{8CD2E7A5-118C-48B1-BC22-DC7A156EB3AF}" ShortID="852772798" Type="SetState" Scope="All" Global="true">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.7"/>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
 							</PropertyList>
 							<SetItemParam>
 								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
@@ -331,6 +331,16 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{6FA8B600-0EA3-44EA-AA06-49A6D9169659}" ShortID="847212387" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4B3E0F92-58F4-4216-AB45-221F49921690}" Global="false">
+									<ObjectRef Name="bigDog_collision_03_tone" ID="{1D62E1FB-FB4F-4485-A397-D5069739C3DC}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Set State" ID="{E10B7917-54CD-48B8-8DAC-F930DFE5FB4C}" ShortID="1049962177" Type="SetState" Scope="All" Global="true">
 							<SetItemParam>
 								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>
@@ -339,7 +349,7 @@
 						</Action>
 						<Action Name="Set State" ID="{31DBB595-5AD5-4BC9-BC0E-B4256C85FD10}" ShortID="66700704" Type="SetState" Scope="All" Global="true">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.2"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<SetItemParam>
 								<Group Name="ExplosionFX" ID="{2FDE897D-6B46-49EE-8991-3634CA674D88}"/>

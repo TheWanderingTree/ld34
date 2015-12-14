@@ -2970,6 +2970,38 @@
 										<ActiveSource Name="bigDog_collision_03" ID="{26CFC1CD-B902-40C1-8A27-61AE285735BB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="bigDog_collision_03_tone" ID="{1D62E1FB-FB4F-4485-A397-D5069739C3DC}" ShortID="175989103" Type="SoundFX">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="New Conversion Settings" ID="{A1BC0F4F-1B32-40BF-9AB4-6CA3823309C3}" WorkUnitID="{5BAEC657-4F75-4412-917A-EBD30BE7213F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bigDog_collision_03_tone" ID="{85C7E8B9-2087-4751-B7D5-50484BC8E300}" ShortID="1060285212">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.113785557986871"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.68490153172867"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>bigDog_collision_03_tone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bigDog_collision_03_tone" ID="{85C7E8B9-2087-4751-B7D5-50484BC8E300}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="collisionBarbedWire" ID="{22E38DE3-FE9C-4E7D-8302-0D3590BFEA4D}" ShortID="67338748">
