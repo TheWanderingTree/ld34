@@ -1746,7 +1746,7 @@
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
-										<TransitionObjectRef Name="transition_toCutscene" ID="{89FFAC3D-70B9-4CDA-8F6D-E9282575A567}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
+										<TransitionObjectRef Name="transition_basic" ID="{1A1193A6-14EE-4CEF-AB68-02C4E9DBDA29}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{AFF65B23-DAA6-4C9F-9973-FDD6FA30B50A}">
