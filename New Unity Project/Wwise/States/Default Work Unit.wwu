@@ -31,6 +31,7 @@
 						<State Name="Cutscene_Minor" ID="{F9015045-C71E-4770-8E2C-E00C7E7DBD1B}"/>
 						<State Name="Ending_Sad" ID="{5632AA98-BAA9-413A-AE1E-2356B5E7D0AB}"/>
 						<State Name="Ending_Happy" ID="{2204C8CE-45A3-4249-955E-33791AACFC73}"/>
+						<State Name="Falldown_LoseStinger" ID="{1BB72309-7BC7-4475-A4C1-175C1DAE8BD7}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}">

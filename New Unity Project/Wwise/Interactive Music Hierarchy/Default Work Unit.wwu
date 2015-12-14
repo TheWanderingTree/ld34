@@ -1811,6 +1811,210 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="fallover_loseStinger" ID="{77AF8FC7-6E58-4110-9BB2-66F816D11619}" ShortID="469515874">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BAEC657-4F75-4412-917A-EBD30BE7213F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="fallover_loseStinger" ID="{627F7476-8C94-4BE5-9DE9-E9A6EE4DE20F}" ShortID="62015430">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6442.88576632839"/>
+										<Property Name="Tempo" Type="Real64" Value="143.841"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BAEC657-4F75-4412-917A-EBD30BE7213F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music" ID="{19F6980A-39A8-41CC-9A31-0A17F3862A5D}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="fallover_loseStinger" ID="{E9C0D233-D7F2-4E24-A895-609DA339A7F3}" ShortID="583430445">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fallover_loseStinger" ID="{F75D429C-D746-40AF-A74F-8A63F7A13C5B}" ShortID="636127095">
+													<Language>SFX</Language>
+													<AudioFile>fallover_loseStinger.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0FC25DC5-E427-4A67-8D32-E96A1F226769}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{8D8B076E-5A46-4AA7-B301-99904B9A2890}">
+													<ClipList>
+														<MusicClip Name="fallover_loseStinger" ID="{CE13D126-4633-4DF7-B587-2BB398FDC0C2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="3447.98185941043"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2754.09836065574"/>
+															</PropertyList>
+															<AudioSourceRef Name="fallover_loseStinger" ID="{F75D429C-D746-40AF-A74F-8A63F7A13C5B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="transition_simple" ID="{2CCBCF74-9F0E-4A12-94A0-AE49E1169597}" ShortID="452209911">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BAEC657-4F75-4412-917A-EBD30BE7213F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{297984CA-C442-4738-8365-940AC5C8A93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="transition_simple" ID="{19DFFD15-9B16-4179-A90D-225CA051F23A}" ShortID="58247916">
+													<Language>SFX</Language>
+													<AudioFile>transition_simple.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1008771417"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{40AAAB10-02AA-449A-9CE7-4FA5BAEDDB45}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{44D8ADC2-6545-41F9-B084-E8ED5FF7519B}">
+													<ClipList>
+														<MusicClip Name="transition_simple" ID="{23FD5346-8B0C-4E98-9F1A-AFA24EA9AFBA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="3441.29976849438"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2894.83086269018"/>
+															</PropertyList>
+															<AudioSourceRef Name="transition_simple" ID="{19DFFD15-9B16-4179-A90D-225CA051F23A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{DEE185C3-6F35-4E15-9634-04646F20A23D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.4413</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A5857B18-2150-466B-A576-3BB46D75E902}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.4413</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{BAB7108B-44F5-443B-9238-E9708A91D34D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>3.4413</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4FA61D0A-B7F6-45E0-92B5-B2E73870F169}"/>
+										<MusicCue Name="Exit Cue" ID="{324323E1-2747-4858-931A-ED1C9B5294FF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="3447.98185941043"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D36AF89B-7AFB-45D3-BB1A-24DAA0D07ABD}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{0C893701-0B92-4C19-BB0C-AA9F9992654D}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2D67982B-287C-496F-9EED-02F6C969B6C5}" ShortID="272749469">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{EB0E8426-EBC1-4D0C-A888-5267079D2BF2}" ShortID="876369266">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="fallover_loseStinger" ID="{627F7476-8C94-4BE5-9DE9-E9A6EE4DE20F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{596FC111-D888-442A-9CB1-C2F6A3ED7DD1}">
@@ -2033,6 +2237,18 @@
 										<TransitionObjectRef Name="transition_simple" ID="{5A676062-CA6F-45D2-A5B2-3D0D460DF9FC}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{D5F999A8-19E4-4356-9362-3F140E77E152}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="fallover_loseStinger" ID="{77AF8FC7-6E58-4110-9BB2-66F816D11619}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -2095,6 +2311,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="endMusic_happy" ID="{9B7A58D4-4501-4C21-88B4-983D765077EA}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Falldown_LoseStinger" ID="{1BB72309-7BC7-4475-A4C1-175C1DAE8BD7}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="fallover_loseStinger" ID="{77AF8FC7-6E58-4110-9BB2-66F816D11619}" WorkUnitID="{F9E003AC-7196-4896-8EA4-296BBF2D579A}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
