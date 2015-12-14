@@ -12,7 +12,6 @@ public class distanceCheck : MonoBehaviour
     {
         totalRange = maxPoint - minPoint;
         transform.parent.SetParent(UiController.instance.gameObject.transform);
-        Debug.Log(transform.parent);
     }
 
     void Update()

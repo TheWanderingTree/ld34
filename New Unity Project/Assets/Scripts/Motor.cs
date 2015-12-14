@@ -76,7 +76,6 @@ public class Motor : MonoBehaviour, IActionController
                 leanInjection = 0;
             }
         }
-        Debug.Log(currentTimeToFall / timeToFall);
     }
 
     void lean(float value)

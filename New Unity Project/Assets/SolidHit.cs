@@ -9,7 +9,6 @@ public class SolidHit : MonoBehaviour
 
     void OnTriggerStay(Collider hit)
     {
-
         Motor target = hit.GetComponent<Motor>();
         if(target)
         {
