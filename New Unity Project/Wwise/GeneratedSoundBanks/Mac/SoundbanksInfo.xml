@@ -65,10 +65,6 @@
 					<ShortName>drone_engineWhineLoop_02.wav</ShortName>
 					<Path>SFX/drone_engineWhineLoop_02_9E69E797.wem</Path>
 				</File>
-				<File Id="111921100" Language="SFX">
-					<ShortName>cutsceneMusic_all_minor.wav</ShortName>
-					<Path>SFX/cutsceneMusic_all_minor_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="149576738" Language="SFX">
 					<ShortName>buffkicker_attack_03.wav</ShortName>
 					<Path>SFX/buffkicker_attack_03_9E69E797.wem</Path>
@@ -109,6 +105,10 @@
 					<ShortName>ui_confirmMenu.wav</ShortName>
 					<Path>SFX/ui_confirmMenu_9E69E797.wem</Path>
 				</File>
+				<File Id="344346590" Language="SFX">
+					<ShortName>transition_toCutscene_Cmaj.wav</ShortName>
+					<Path>SFX/transition_toCutscene_Cmaj_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="351849787" Language="SFX">
 					<ShortName>titleMusic_intro_01.wav</ShortName>
 					<Path>SFX/titleMusic_intro_01_4B8CC0C5.wem</Path>
@@ -133,6 +133,10 @@
 					<ShortName>drone_engineBassLoop_03.wav</ShortName>
 					<Path>SFX/drone_engineBassLoop_03_9E69E797.wem</Path>
 				</File>
+				<File Id="507606788" Language="SFX">
+					<ShortName>cutsceneMusic_all_minor_Cmin.wav</ShortName>
+					<Path>SFX/cutsceneMusic_all_minor_Cmin_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="553067003" Language="SFX">
 					<ShortName>drone_engineBassLoop_01.wav</ShortName>
 					<Path>SFX/drone_engineBassLoop_01_9E69E797.wem</Path>
@@ -153,17 +157,21 @@
 					<ShortName>ui_tiltAlert_alarm_02.wav</ShortName>
 					<Path>SFX/ui_tiltAlert_alarm_02_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="674162840" Language="SFX">
+					<ShortName>endMusic_sad.wav</ShortName>
+					<Path>SFX/endMusic_sad_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="710605057" Language="SFX">
 					<ShortName>bigDog_collision_04.wav</ShortName>
 					<Path>SFX/bigDog_collision_04_A7C955AF.wem</Path>
 				</File>
+				<File Id="729029128" Language="SFX">
+					<ShortName>transition_basic.wav</ShortName>
+					<Path>SFX/transition_basic_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="740829738" Language="SFX">
 					<ShortName>buffkicker_attack_01.wav</ShortName>
 					<Path>SFX/buffkicker_attack_01_9E69E797.wem</Path>
-				</File>
-				<File Id="760840720" Language="SFX">
-					<ShortName>cutsceneMusic_all_major.wav</ShortName>
-					<Path>SFX/cutsceneMusic_all_major_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="772145593" Language="SFX">
 					<ShortName>transition_toCutscene.wav</ShortName>
@@ -201,6 +209,10 @@
 					<ShortName>drone_attack_03.wav</ShortName>
 					<Path>SFX/drone_attack_03_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="1008771417" Language="SFX">
+					<ShortName>transition_simple.wav</ShortName>
+					<Path>SFX/transition_simple_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="1019571783" Language="SFX">
 					<ShortName>titleMusic_intro_02.wav</ShortName>
 					<Path>SFX/titleMusic_intro_02_4B8CC0C5.wem</Path>
@@ -208,6 +220,10 @@
 				<File Id="1030381458" Language="SFX">
 					<ShortName>drone_engineWhineLoop_01.wav</ShortName>
 					<Path>SFX/drone_engineWhineLoop_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1067935872" Language="SFX">
+					<ShortName>cutsceneMusic_all_major_Cmaj.wav</ShortName>
+					<Path>SFX/cutsceneMusic_all_major_Cmaj_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1069044238" Language="SFX">
 					<ShortName>transition_toCutscene_minor.wav</ShortName>

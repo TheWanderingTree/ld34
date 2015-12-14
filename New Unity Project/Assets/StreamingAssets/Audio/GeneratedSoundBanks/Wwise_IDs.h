@@ -57,6 +57,7 @@ namespace AK
                 static const AkUniqueID BUILD = 3284755031U;
                 static const AkUniqueID CUTSCENE_MAJOR = 615630075U;
                 static const AkUniqueID CUTSCENE_MINOR = 3180957319U;
+                static const AkUniqueID ENDING_SAD = 2635390553U;
                 static const AkUniqueID GAMEPLAY = 89505537U;
                 static const AkUniqueID INTRO = 1125500713U;
             } // namespace STATE

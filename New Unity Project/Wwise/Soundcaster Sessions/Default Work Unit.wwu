@@ -113,11 +113,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{C2E6C015-C461-4809-9628-AC608886B217}"/>
-							<Value>20</Value>
+							<Value>24</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="BigDog_Speed" ID="{1B6ABD4C-E133-4D47-84CA-8C9126BA03F7}"/>
-							<Value>61.28</Value>
+							<Value>50.28</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Tilt_Amount" ID="{467D99D4-8896-4F60-8E1C-68DC625C7425}"/>
@@ -126,7 +126,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
-						<CurrentStateRef Name="Gameplay" ID="{91F86CB1-21C6-4231-967B-88738B5A8A00}"/>
+						<CurrentStateRef Name="Ending_Sad" ID="{5632AA98-BAA9-413A-AE1E-2356B5E7D0AB}"/>
 						<CurrentStateRef Name="Right" ID="{193444CD-68DA-473F-9B44-9DA2D6CB5858}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
