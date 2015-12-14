@@ -13,20 +13,28 @@
 						<ObjectRef Name="playGameOverStinger" ID="{EB0C1A23-4C52-4986-9372-E8E2DAE9B7FF}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="collisionBarbedWire" ID="{681BCA27-9D54-46CB-B82B-9C3C3882D879}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_selectMenu" ID="{4C29522B-231B-48EC-835B-7A57211B25E5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_levelTwoStart" ID="{64E0992E-7A9F-4ED4-A5D0-0A6A92D61E1F}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_obstacleAlert" ID="{6A7D292F-2747-4D71-A104-E63B78E9FEB5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_tiltAlertRight" ID="{F700233F-1493-478C-93CA-E449A8BA22C9}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="explosion" ID="{C681A943-37CF-47CE-B3EC-8D7ECFFFBE50}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_missionStart" ID="{5306504B-766D-4DDC-A1AA-EC50E7ED9D3B}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_confirmMenu" ID="{AF81BC56-2A4C-4918-BC49-CB484A62DC45}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="collisionLandmine" ID="{9B8F526A-DA52-48B3-B7FC-3AB390E2AE8E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="destroyDrone_spinout" ID="{81007174-E37E-4049-8151-076EC4DB83FB}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="collisionTankTrap" ID="{53631F81-8213-419F-A8B6-EA4F0522CF5E}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_levelStart" ID="{72E61A83-E081-4D14-96A3-8FCA06CFF150}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_levelOneStart" ID="{BFE48F85-21DE-468A-9226-CD8E176E8C41}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_levelThreeStart" ID="{3838828B-0D9B-40B4-A7B3-3CEFDA7C7954}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="startBigDog" ID="{3ACFDB94-A38F-4956-B269-D5D3FCC4C078}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="droneSpawn" ID="{A388D5A2-1D1F-44C4-BB6C-1468C8D225C6}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="destroyDrone_explode" ID="{86D70AA4-9CEC-49FE-924C-4F95F89C3712}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_levelFourStart" ID="{E66E60B1-7276-4BEE-A738-400ADFFA71DA}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="playDesertAmb" ID="{EFC643B5-754F-4152-93B2-978FA870BDD4}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="playTiltAlert" ID="{06FCBCC1-432B-4833-AF84-B404EAB7F7F5}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_tiltAlertLeft" ID="{EFA504E6-3DE9-45AC-A015-6AA124216941}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="stopBigDog" ID="{AE08BBE7-5364-484D-8AA3-52A86B6F7BF2}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_gametitle" ID="{86ABADEF-FC9E-4210-A45A-0CCA49B20A40}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_congrats" ID="{5CF2BEFC-4491-4BD0-96B4-480D5D0E6D13}" WorkUnitID="{10918C8B-9323-4424-9284-405ED29B6142}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

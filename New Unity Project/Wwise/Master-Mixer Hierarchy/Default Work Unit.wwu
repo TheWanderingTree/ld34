@@ -34,7 +34,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -80,6 +80,37 @@
 												<FadeInTime>0</FadeInTime>
 												<FadeOutTime>0</FadeOutTime>
 												<FadeCurve>FadeLog3</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="VO" ID="{21951286-3673-49D9-A887-06986DE29282}">
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Enemies" ID="{43E85671-7466-4492-90CF-5572032617C8}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Player" ID="{1C000716-065C-490D-B844-95246E7D72FD}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Obstacles" ID="{F02E44DF-414D-4582-87AB-AB3BF491B9F1}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
 											</DuckingParam>
 										</DuckItem>
 									</DuckingList>

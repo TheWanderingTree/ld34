@@ -41,6 +41,14 @@
 				<Event Id="3497004131" Name="UI_selectMenu"/>
 				<Event Id="1637104820" Name="UI_tiltAlertLeft" MaxAttenuation="0.000000"/>
 				<Event Id="3529644627" Name="UI_tiltAlertRight" MaxAttenuation="0.000000"/>
+				<Event Id="3211598160" Name="VO_congrats"/>
+				<Event Id="3247786337" Name="VO_gametitle"/>
+				<Event Id="3557314393" Name="VO_levelFourStart"/>
+				<Event Id="607287667" Name="VO_levelOneStart"/>
+				<Event Id="2960537857" Name="VO_levelStart"/>
+				<Event Id="3881112743" Name="VO_levelThreeStart"/>
+				<Event Id="635806789" Name="VO_levelTwoStart"/>
+				<Event Id="1041141789" Name="VO_missionStart"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="3288627" Language="SFX">
@@ -78,6 +86,10 @@
 				<File Id="149576738" Language="SFX">
 					<ShortName>buffkicker_attack_03.wav</ShortName>
 					<Path>SFX/buffkicker_attack_03_9E69E797.wem</Path>
+				</File>
+				<File Id="156176000" Language="SFX">
+					<ShortName>one.wav</ShortName>
+					<Path>SFX/one_9E69E797.wem</Path>
 				</File>
 				<File Id="166559222" Language="SFX">
 					<ShortName>bigDog_collision_01.wav</ShortName>
@@ -139,6 +151,10 @@
 					<ShortName>drone_attack_02.wav</ShortName>
 					<Path>SFX/drone_attack_02_9E69E797.wem</Path>
 				</File>
+				<File Id="416936183" Language="SFX">
+					<ShortName>missionStart_01.wav</ShortName>
+					<Path>SFX/missionStart_01_9E69E797.wem</Path>
+				</File>
 				<File Id="418451387" Language="SFX">
 					<ShortName>drone_death_impact_01.wav</ShortName>
 					<Path>SFX/drone_death_impact_01_9C42A4F7.wem</Path>
@@ -146,6 +162,10 @@
 				<File Id="440191633" Language="SFX">
 					<ShortName>drone_death_spinout_02.wav</ShortName>
 					<Path>SFX/drone_death_spinout_02_D9AA9D70.wem</Path>
+				</File>
+				<File Id="459091414" Language="SFX">
+					<ShortName>levelstart_01.wav</ShortName>
+					<Path>SFX/levelstart_01_9E69E797.wem</Path>
 				</File>
 				<File Id="503454362" Language="SFX">
 					<ShortName>drone_engineBassLoop_03.wav</ShortName>
@@ -162,6 +182,10 @@
 				<File Id="590495305" Language="SFX">
 					<ShortName>drone_death_spinout_01.wav</ShortName>
 					<Path>SFX/drone_death_spinout_01_9E69E797.wem</Path>
+				</File>
+				<File Id="596368465" Language="SFX">
+					<ShortName>start.wav</ShortName>
+					<Path>SFX/start_9E69E797.wem</Path>
 				</File>
 				<File Id="630154995" Language="SFX">
 					<ShortName>drone_death_spinout_03.wav</ShortName>
@@ -183,6 +207,10 @@
 					<ShortName>endMusic_sad.wav</ShortName>
 					<Path>SFX/endMusic_sad_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="683536203" Language="SFX">
+					<ShortName>two.wav</ShortName>
+					<Path>SFX/two_9E69E797.wem</Path>
+				</File>
 				<File Id="710605057" Language="SFX">
 					<ShortName>bigDog_collision_04.wav</ShortName>
 					<Path>SFX/bigDog_collision_04_A7C955AF.wem</Path>
@@ -194,6 +222,10 @@
 				<File Id="740829738" Language="SFX">
 					<ShortName>buffkicker_attack_01.wav</ShortName>
 					<Path>SFX/buffkicker_attack_01_9E69E797.wem</Path>
+				</File>
+				<File Id="746716093" Language="SFX">
+					<ShortName>four.wav</ShortName>
+					<Path>SFX/four_9E69E797.wem</Path>
 				</File>
 				<File Id="787793566" Language="SFX">
 					<ShortName>bigDog_collision_03.wav</ShortName>
@@ -210,6 +242,14 @@
 				<File Id="806942504" Language="SFX">
 					<ShortName>ui_selectMenu.wav</ShortName>
 					<Path>SFX/ui_selectMenu_9E69E797.wem</Path>
+				</File>
+				<File Id="833229098" Language="SFX">
+					<ShortName>title_01.wav</ShortName>
+					<Path>SFX/title_01_9E69E797.wem</Path>
+				</File>
+				<File Id="854079516" Language="SFX">
+					<ShortName>level.wav</ShortName>
+					<Path>SFX/level_9E69E797.wem</Path>
 				</File>
 				<File Id="885259706" Language="SFX">
 					<ShortName>drone_engineBassLoop_02.wav</ShortName>
@@ -238,6 +278,14 @@
 				<File Id="1030381458" Language="SFX">
 					<ShortName>drone_engineWhineLoop_01.wav</ShortName>
 					<Path>SFX/drone_engineWhineLoop_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1041209859" Language="SFX">
+					<ShortName>congratulations_01.wav</ShortName>
+					<Path>SFX/congratulations_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1050656275" Language="SFX">
+					<ShortName>three.wav</ShortName>
+					<Path>SFX/three_9E69E797.wem</Path>
 				</File>
 				<File Id="1067935872" Language="SFX">
 					<ShortName>cutsceneMusic_all_major_Cmaj.wav</ShortName>

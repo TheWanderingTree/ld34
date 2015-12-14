@@ -3,11 +3,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	55290242	stopBigDog_noDelay			\Default Work Unit\stopBigDog_noDelay	
 	68125478	collisionTankTrap			\Default Work Unit\collisionTankTrap	
 	555737691	UI_confirmMenu			\Default Work Unit\UI_confirmMenu	
+	607287667	VO_levelOneStart			\Default Work Unit\VO_levelOneStart	
 	614269825	buffKickerAttack			\Default Work Unit\buffKickerAttack	
+	635806789	VO_levelTwoStart			\Default Work Unit\VO_levelTwoStart	
 	690362850	droneSpawn			\Default Work Unit\droneSpawn	
 	698348403	playGameOverStinger			\Default Work Unit\playGameOverStinger	
 	718394488	playTitleMusic			\Default Work Unit\playTitleMusic	
 	823393987	destroyDrone_explode			\Default Work Unit\destroyDrone_explode	
+	1041141789	VO_missionStart			\Default Work Unit\VO_missionStart	
 	1088977592	destroyDrone_spinout			\Default Work Unit\destroyDrone_spinout	
 	1637104820	UI_tiltAlertLeft			\Default Work Unit\UI_tiltAlertLeft	
 	1639539297	UI_obstacleAlert			\Default Work Unit\UI_obstacleAlert	
@@ -16,9 +19,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	2229533828	bagJostle			\Default Work Unit\bagJostle	
 	2273201524	playTiltAlert			\Default Work Unit\playTiltAlert	
 	2687191769	droneAttack			\Default Work Unit\droneAttack	
+	2960537857	VO_levelStart			\Default Work Unit\VO_levelStart	
+	3211598160	VO_congrats			\Default Work Unit\VO_congrats	
+	3247786337	VO_gametitle			\Default Work Unit\VO_gametitle	
 	3497004131	UI_selectMenu			\Default Work Unit\UI_selectMenu	
 	3499504239	startBigDog			\Default Work Unit\startBigDog	
 	3529644627	UI_tiltAlertRight			\Default Work Unit\UI_tiltAlertRight	
+	3557314393	VO_levelFourStart			\Default Work Unit\VO_levelFourStart	
+	3881112743	VO_levelThreeStart			\Default Work Unit\VO_levelThreeStart	
 	3926176201	collisionLandmine			\Default Work Unit\collisionLandmine	
 	3938763508	playDesertAmb			\Default Work Unit\playDesertAmb	
 
@@ -56,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	59124147	drone_engineWhineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineWhineLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_02		1315636
 	119757179	fallover_loseStinger	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\fallover_loseStinger_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\fallover_loseStinger		608416
 	149576738	buffkicker_attack_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\buffkicker_attack_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_03		72792
+	156176000	one	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\one_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelOneStart\one		70424
 	166559222	bigDog_collision_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_collision_01_2BC3BF71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionTankTrap\bigDog_collision_01		81480
 	174721331	bigDog_engineLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_engineLoop_02_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_02		1455652
 	256140889	ui_obstacleAlert_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\ui_obstacleAlert_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_obstacleAlert_01		65580
@@ -69,23 +78,30 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	351849787	titleMusic_intro_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\titleMusic_intro_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Intro\titleMusic_intro_01\titleMusic_intro_01		2621568
 	358328695	buffkicker_attack_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\buffkicker_attack_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_04		74256
 	396661630	titleMusic_build_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\titleMusic_build_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Gameplay_incl_build\titleMusic_build_02\titleMusic_build_02		8388736
+	416936183	missionStart_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\missionStart_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\missionStart_01		203388
 	418451387	drone_death_impact_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_death_impact_01_9C42A4F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_01		122168
 	440191633	drone_death_spinout_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_death_spinout_02_D9AA9D70.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathSpinout\drone_death_spinout_02		122980
+	459091414	levelstart_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\levelstart_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelstart_01		204168
 	503454362	drone_engineBassLoop_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineBassLoop_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_03		617896
 	507606788	cutsceneMusic_all_minor_Cmin	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\cutsceneMusic_all_minor_Cmin_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\cutsceneMusic_minor\cutsceneMusic_all_minor\cutsceneMusic_all_minor_Cmin		8648300
 	553067003	drone_engineBassLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineBassLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_01		600652
+	596368465	start	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\start_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelTwoStart\start		256116
 	630154995	drone_death_spinout_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_death_spinout_03_CF905402.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathSpinout\drone_death_spinout_03		123616
 	648319351	desertAmb_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\desertAmb_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\desertAmb_01		1960964
 	659618299	bigDog_engineStop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_engineStop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineStop_01		415952
 	671378564	ui_tiltAlert_alarm_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\ui_tiltAlert_alarm_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\tiltAlertSwitch\ui_tiltAlertLeft_Loop\ui_tiltAlertLeft\ui_tiltAlert_alarm_02		297144
 	674162840	endMusic_sad_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\endMusic_sad_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\endMusic_sad\endMusic_sad\endMusic_sad_01		6026796
+	683536203	two	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\two_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelTwoStart\two		76208
 	710605057	bigDog_collision_04	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_collision_04_A7C955AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionBarbedWire\bigDog_collision_04		90880
 	729029128	transition_basic	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\transition_basic_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_basic\transition_basic		783980
 	740829738	buffkicker_attack_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\buffkicker_attack_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BuffKickers\buffkicker_attack\buffkicker_attack_01		88336
+	746716093	four	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\four_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelFourStart\four		79896
 	787793566	bigDog_collision_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_collision_03_610B9DF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionLandmine\bigDog_collision_03		137436
 	788645924	bigDog_engineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_engineLoop_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\engine\engineSwitch\bigDog_engineLoop_01		1142700
 	793245281	drone_death_impact_03	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_death_impact_03_B910A721.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_deathImpact\drone_death_impact_03		130044
 	806942504	ui_selectMenu	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\ui_selectMenu_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_selectMenu		73872
+	833229098	title_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\title_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\title_01		694540
+	854079516	level	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\level_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelTwoStart\level		77804
 	885259706	drone_engineBassLoop_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineBassLoop_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineBass\drone_engineBassLoop_02		611396
 	942662466	bag_jostle_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bag_jostle_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bag_jostle\bag_jostle_02		178956
 	968748557	bigDog_death	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_death_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigDog\bigDog_death		797112
@@ -93,6 +109,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1008771417	transition_simple	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\transition_simple_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_simple\transition_simple		1308252
 	1019571783	titleMusic_intro_02	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\titleMusic_intro_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\titleMusic_Intro\titleMusic_intro_02\titleMusic_intro_02		2883712
 	1030381458	drone_engineWhineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineWhineLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_01		1317736
+	1041209859	congratulations_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\congratulations_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\congratulations_01		333396
+	1050656275	three	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\three_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelThreeStart\three		64796
 	1067935872	cutsceneMusic_all_major_Cmaj	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\cutsceneMusic_all_major_Cmaj_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\cutsceneMusic_major\cutsceneMusic_all_major\cutsceneMusic_all_major_Cmaj		8648348
 	1069044238	transition_toCutscene	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\transition_toCutscene_minor_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene_minor\transition_toCutscene		784028
 

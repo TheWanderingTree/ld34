@@ -35,6 +35,14 @@ namespace AK
         static const AkUniqueID UI_SELECTMENU = 3497004131U;
         static const AkUniqueID UI_TILTALERTLEFT = 1637104820U;
         static const AkUniqueID UI_TILTALERTRIGHT = 3529644627U;
+        static const AkUniqueID VO_CONGRATS = 3211598160U;
+        static const AkUniqueID VO_GAMETITLE = 3247786337U;
+        static const AkUniqueID VO_LEVELFOURSTART = 3557314393U;
+        static const AkUniqueID VO_LEVELONESTART = 607287667U;
+        static const AkUniqueID VO_LEVELSTART = 2960537857U;
+        static const AkUniqueID VO_LEVELTHREESTART = 3881112743U;
+        static const AkUniqueID VO_LEVELTWOSTART = 635806789U;
+        static const AkUniqueID VO_MISSIONSTART = 1041141789U;
     } // namespace EVENTS
 
     namespace STATES
@@ -118,6 +126,7 @@ namespace AK
         static const AkUniqueID PLAYER = 1069431850U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID VO = 1534528548U;
     } // namespace BUSSES
 
 }// namespace AK

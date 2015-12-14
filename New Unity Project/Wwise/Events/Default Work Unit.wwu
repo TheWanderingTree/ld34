@@ -390,6 +390,94 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="VO_levelOneStart" ID="{BFE48F85-21DE-468A-9226-CD8E176E8C41}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BF017910-40BE-4C6F-972B-B2602347D750}" ShortID="326035219" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2BB946D0-13BF-499F-9A40-A43C4CE3C67B}" Global="false">
+									<ObjectRef Name="levelOneStart" ID="{B63ACE35-84BE-4FE5-A32E-00A733546990}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_levelTwoStart" ID="{64E0992E-7A9F-4ED4-A5D0-0A6A92D61E1F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{76B023AA-A143-45BD-9CDA-BE0C531247FD}" ShortID="475606278" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6F6167E5-756D-44B2-BBCE-FBA0FFD5FE09}" Global="false">
+									<ObjectRef Name="levelTwoStart" ID="{6B591562-7169-41FB-85A6-3271DFF9904B}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_levelThreeStart" ID="{3838828B-0D9B-40B4-A7B3-3CEFDA7C7954}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C551F014-0EF6-4205-B9F6-CAFD806ABEF8}" ShortID="800087128" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EC0AD14A-2EA9-4104-ACF7-26CAF9E6A323}" Global="false">
+									<ObjectRef Name="levelThreeStart" ID="{6E9C6E1B-E8F9-4E3D-8857-45A0D3618925}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_levelFourStart" ID="{E66E60B1-7276-4BEE-A738-400ADFFA71DA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8A86FF0B-8BAB-47EA-BEE1-4208FAC87DA1}" ShortID="215785833" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7F0F5172-1E55-4D1B-8DE8-338FF2E7DBDD}" Global="false">
+									<ObjectRef Name="levelFourStart" ID="{A5956CFC-1C23-4265-9E15-045A9F570B61}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_congrats" ID="{5CF2BEFC-4491-4BD0-96B4-480D5D0E6D13}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AD9397DB-A9B0-4252-882A-5A99320DA9B7}" ShortID="954754409" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{12281E82-838B-45B8-9187-DD9D0853DEF5}" Global="false">
+									<ObjectRef Name="congratulations_01" ID="{442A630B-E4D4-4B23-BA56-56999EDE17FD}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_levelStart" ID="{72E61A83-E081-4D14-96A3-8FCA06CFF150}">
+					<ChildrenList>
+						<Action Name="Play" ID="{65341397-D354-490F-AC7F-7C9086436D77}" ShortID="958846303" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D62FE33F-7656-440E-BFDB-2EAB33E5A702}" Global="false">
+									<ObjectRef Name="levelstart_01" ID="{C20B6D03-A59A-4DE5-9578-734D32677E30}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_missionStart" ID="{5306504B-766D-4DDC-A1AA-EC50E7ED9D3B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D87C632D-5CA3-47E7-B75E-DB54841DFF51}" ShortID="138353921" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C8279100-BCD4-4CC8-B778-2B536AC85C50}" Global="false">
+									<ObjectRef Name="missionStart_01" ID="{13B63193-7BBE-47F0-8036-ADAA87B7553B}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_gametitle" ID="{86ABADEF-FC9E-4210-A45A-0CCA49B20A40}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FD8D68D7-B377-4D30-A3CE-79573D8F4B0B}" ShortID="793075017" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{58BD638F-F2B8-4E9C-9991-8097972987E9}" Global="false">
+									<ObjectRef Name="title_01" ID="{3D3F75BC-80E0-4090-9FBD-7A7D1A114C34}" WorkUnitID="{C12127F9-1684-40F5-A873-2F8379B124BA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
