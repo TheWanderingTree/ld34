@@ -27,6 +27,8 @@
 						<State Name="Intro" ID="{839EA78D-D3D3-45E4-8BA5-FC63779EA020}"/>
 						<State Name="Gameplay" ID="{91F86CB1-21C6-4231-967B-88738B5A8A00}"/>
 						<State Name="Build" ID="{24E52E64-F0C4-4C3C-895D-744032D810D2}"/>
+						<State Name="Cutscene_Major" ID="{99CC64E3-4FB2-4B33-AB39-B25A7F6BCFFA}"/>
+						<State Name="Cutscene_Minor" ID="{F9015045-C71E-4770-8E2C-E00C7E7DBD1B}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Tilt_Direction" ID="{1D17BC82-5D4A-4CC3-B9B6-D9AE8CD9438D}">

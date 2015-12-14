@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BAGJOSTLE = 2229533828U;
+        static const AkUniqueID BUFFKICKERATTACK = 614269825U;
         static const AkUniqueID COLLISIONBARBEDWIRE = 2037222792U;
         static const AkUniqueID COLLISIONLANDMINE = 3926176201U;
         static const AkUniqueID COLLISIONTANKTRAP = 68125478U;
@@ -54,6 +55,8 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BUILD = 3284755031U;
+                static const AkUniqueID CUTSCENE_MAJOR = 615630075U;
+                static const AkUniqueID CUTSCENE_MINOR = 3180957319U;
                 static const AkUniqueID GAMEPLAY = 89505537U;
                 static const AkUniqueID INTRO = 1125500713U;
             } // namespace STATE
