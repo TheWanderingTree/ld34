@@ -98,6 +98,7 @@
     <Compile Include="Assets\TimedLife.cs" />
     <Compile Include="Assets\UiController.cs" />
     <Compile Include="Assets\UiParenter.cs" />
+    <Compile Include="Assets\VideoPlayer.cs" />
     <Compile Include="Assets\WorldCanvas.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkActionOnEventType.cs" />
