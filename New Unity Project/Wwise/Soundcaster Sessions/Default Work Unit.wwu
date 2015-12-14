@@ -126,7 +126,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Running" ID="{58A9B157-0DA2-4269-8BB1-A61040AF5E88}"/>
-						<CurrentStateRef Name="Ending_Sad" ID="{5632AA98-BAA9-413A-AE1E-2356B5E7D0AB}"/>
+						<CurrentStateRef Name="Ending_Happy" ID="{2204C8CE-45A3-4249-955E-33791AACFC73}"/>
 						<CurrentStateRef Name="Right" ID="{193444CD-68DA-473F-9B44-9DA2D6CB5858}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

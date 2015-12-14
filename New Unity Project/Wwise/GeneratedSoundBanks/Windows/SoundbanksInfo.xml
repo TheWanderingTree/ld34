@@ -55,6 +55,10 @@
 					<ShortName>titleMusic_chorus_01.wav</ShortName>
 					<Path>SFX/titleMusic_chorus_01_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="40158769" Language="SFX">
+					<ShortName>endMusic_happy.wav</ShortName>
+					<Path>SFX/endMusic_happy_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="40922257" Language="SFX">
 					<ShortName>bag_jostle_03.wav</ShortName>
 					<Path>SFX/bag_jostle_03_9E69E797.wem</Path>
