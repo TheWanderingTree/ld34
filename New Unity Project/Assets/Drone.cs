@@ -12,6 +12,7 @@ public class Drone : MonoBehaviour
     void Start()
     {
         particles.SetActive(false);
+        transform.position += new Vector3(0, 0.5f, 0);
     }
 	void Update ()
     {

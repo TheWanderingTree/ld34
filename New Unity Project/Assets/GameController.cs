@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -36,13 +36,26 @@ public class GameController : MonoBehaviour
     public GameObject gameOverAnim;
 
     private float currentTitleLength;
+
+    public float horMoveRange;
+
+    private LevelFactory[] factories;
+
     void Awake()
     {
         initInstance();
+        factories = GetComponents<LevelFactory>();
+
+
     }
     void Start()
     {
         remainingDistance = currentLevel.levelDistance;
+        enableFactories(false);
+        AkSoundEngine.PostEvent("playTiltAlert", gameObject);
+
+        AkSoundEngine.SetState("Music", "Gameplay");
+
     }
 
     void initInstance()
@@ -56,6 +69,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+
         runStates();
     }
 
@@ -64,8 +78,9 @@ public class GameController : MonoBehaviour
         switch(currentState)
         {
             case gameState.begin:
+                enableFactories(false);
                 BigDog.instance.currentState = BigDog.bigDogStates.immobile;
-                if(titleAnimation(beginAnim, 3))
+                if(titleAnimation(beginAnim, 3f))
                 {
                     currentState = gameState.inGame;
                 }
@@ -74,10 +89,12 @@ public class GameController : MonoBehaviour
                 BigDog.instance.currentState = BigDog.bigDogStates.prefire;
                 break;
             case gameState.inGame:
+                enableFactories(true);
                 BigDog.instance.currentState = BigDog.bigDogStates.mobile;
 
                 if(BigDog.instance.GetComponent<Motor>().hasFallen)
-                {                    
+                {
+
                     BigDog.instance.currentState = BigDog.bigDogStates.fallen;
 
                     foreach(GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
@@ -87,10 +104,8 @@ public class GameController : MonoBehaviour
                             enemy.GetComponent<Status>().deathEvent();
                         }
                     }
-                    if (titleAnimation(gameOverAnim, 5))
-                    {
-                        currentState = gameState.gameOver;
-                    }
+                    currentState = gameState.gameOver;
+
                 }
                 else if (traveledDistance())
                 {
@@ -99,12 +114,19 @@ public class GameController : MonoBehaviour
                 break;
             case gameState.levelComplete:
                 BigDog.instance.currentState = BigDog.bigDogStates.prefire;
+                enableFactories(false);
                 if (titleAnimation(levelCompleteAnim, 7))
                 {
                     currentState = gameState.inGame;
                 }
                 break;
             case gameState.gameOver:
+                enableFactories(false);
+                titleAnimation(gameOverAnim, 5);
+                if(Input.anyKey)
+                {
+                    SceneManager.LoadScene("Main");
+                }
                 break;
         }
     }
@@ -138,5 +160,13 @@ public class GameController : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    void enableFactories(bool enable)
+    {
+        foreach(LevelFactory factory in factories)
+        {
+            factory.enabled = enable;
+        }
     }
 }

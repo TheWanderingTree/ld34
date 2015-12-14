@@ -21,14 +21,17 @@ public class Segway : MonoBehaviour
         currentRecoilLength = recoilLength;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(motor)
         {
             if(motor.intercepted)
             {
                 attack();
-                GetComponent<Animator>().SetBool("Attacking", true);
+                if (!GetComponent<Animator>().GetBool("Attacking"))
+                {
+                    GetComponent<Animator>().SetBool("Attacking", true);
+                }
             }
         }
     }

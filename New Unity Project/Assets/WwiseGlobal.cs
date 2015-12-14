@@ -16,12 +16,6 @@ public class WwiseGlobal : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
         instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
-    void Update()
-    {
-        AkSoundEngine.SetState("Music", "Gameplay");
     }
 }

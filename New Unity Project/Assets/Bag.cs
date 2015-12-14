@@ -4,7 +4,7 @@ using System.Collections;
 public class Bag : MonoBehaviour
 {
     public float outputDamage;
-
+    public float bagControlForce;
     private Vector3 initScale;
     private float initMass;
 
@@ -15,12 +15,16 @@ public class Bag : MonoBehaviour
         private set;
     }
 
+    private Controller currentControl;
+
     void Awake()
     {
         initInstance();
         rigid = GetComponent<Rigidbody>();
         initScale = transform.localScale;
         initMass = rigid.mass;
+
+        currentControl = new Controller();
     }
 
     void initInstance()
@@ -30,6 +34,11 @@ public class Bag : MonoBehaviour
             Destroy(gameObject);
         }
         instance = this;
+    }
+
+    void FixedUpdate()
+    {
+        rigid.AddForce(transform.right * currentControl.rHorAxis() * bagControlForce);
     }
     void OnTriggerEnter(Collider hit)
     {

@@ -8,6 +8,11 @@ public class Controller
         return Input.GetAxis(Inputs.horAxis);
     }
 
+    public float rHorAxis()
+    {
+        return Input.GetAxis(Inputs.rHorAxis);
+    }
+
     public float rawHorAxis()
     {
         return Mathf.Round(Input.GetAxisRaw(Inputs.horAxis));

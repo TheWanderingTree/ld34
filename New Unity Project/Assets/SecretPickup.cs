@@ -9,6 +9,7 @@ public class SecretPickup : MonoBehaviour
     {
         if(hit.GetComponent<BigDog>())
         {
+            AkSoundEngine.PostEvent("UI_confirmMenu", gameObject);
             Bag.instance.modBagSize(sizeIncrease);
             deathEvent();
         }

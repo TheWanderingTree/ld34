@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class VideoPlayer : MonoBehaviour
 {
     public MovieTexture movTexture;
+    public Image startButton; 
     // Use this for initialization
     void Start()
     {
@@ -15,6 +17,7 @@ public class VideoPlayer : MonoBehaviour
         MovieTexture tex = GetComponent<Renderer>().material.mainTexture as MovieTexture;
         if (!tex.isPlaying)
         {
+            startButton.enabled = true;
             if (Input.anyKey)
             {
                 startGame();

@@ -16,7 +16,7 @@ public class Status : MonoBehaviour
 
     public void deathEvent()
     {
-		AkSoundEngine.PostEvent ("destroyDrone_explode", gameObject);
+		AkSoundEngine.PostEvent ("explosion", gameObject);
         Instantiate(deathAnim, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

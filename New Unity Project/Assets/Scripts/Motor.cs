@@ -52,14 +52,17 @@ public class Motor : MonoBehaviour, IActionController
         currentInput = new Controller();
         enableActions = true;
         currentTimeToFall = timeToFall;
+        maxMoveDist = GameController.instance.horMoveRange;
     }
-    void Update()
+    void FixedUpdate()
     {
         if (enableActions)
         {
             lean(currentInput.horAxis());
         }
-
+    }
+    void Update()
+    {
         if (leanInjection != 0)
         {
             if (currentClearDelay > 0)
