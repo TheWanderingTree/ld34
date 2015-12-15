@@ -112,7 +112,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1030381458	drone_engineWhineLoop_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\drone_engineWhineLoop_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drones\droneSwitch\drone_engineWhine\drone_engineWhineLoop_01		1317736
 	1041209859	congratulations_01	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\congratulations_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\congratulations_01		333396
 	1050656275	three	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\three_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\levelThreeStart\three		64796
-	1060285212	bigDog_collision_03_tone	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_collision_03_tone_422B1D72.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionLandmine\bigDog_collision_03_tone		352864
+	1060285212	bigDog_collision_03_tone	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\bigDog_collision_03_tone_745F5140.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacles\collisionLandmine\bigDog_collision_03_tone		352864
 	1067935872	cutsceneMusic_all_major_Cmaj	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\cutsceneMusic_all_major_Cmaj_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\titleMusicSwitch\cutsceneMusic_major\cutsceneMusic_all_major\cutsceneMusic_all_major_Cmaj		8648348
 	1069044238	transition_toCutscene	Y:\Repositories\ld34\New Unity Project\Wwise\.cache\Mac\SFX\transition_toCutscene_minor_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\transition_toCutscene_minor\transition_toCutscene		784028
 

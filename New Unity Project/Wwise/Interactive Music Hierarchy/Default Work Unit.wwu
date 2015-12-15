@@ -1129,29 +1129,51 @@
 								<MusicPlaylistItem Name="" ID="{BCF02F11-A6EC-47C3-9735-D2FF218683AA}" ShortID="878440842">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{626D205D-C7DC-444F-8D2F-A607125FFB1D}" ShortID="711579813">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>17</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<SegmentRef Name="titleMusic_chorus_01" ID="{60F6B0EA-FE41-4A61-83DB-A429BF98899F}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{12079E83-BE18-46DF-B352-0B3AE576785C}" ShortID="1021349065">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>33</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<SegmentRef Name="titleMusic_build_02" ID="{1FC68DC1-B029-4E8A-83FB-E52932242317}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{F75A81DC-5066-4FF3-861E-36C9BD1EB1DF}" ShortID="439944794">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>16</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<SegmentRef Name="titleMusic_chorus_01" ID="{60F6B0EA-FE41-4A61-83DB-A429BF98899F}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{A1DA7919-B1CB-411C-8326-4C6EC6DE6F8B}" ShortID="457170746">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>33</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<SegmentRef Name="titleMusic_build_01_incl_transition" ID="{79EF36D8-EA88-49B5-80D2-FF2234ACAAE9}"/>
 										</MusicPlaylistItem>
